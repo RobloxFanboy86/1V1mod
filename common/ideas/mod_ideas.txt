@@ -1,0 +1,288 @@
+ideas = {
+	country = {
+	
+	mod_boost_production_efficiency = {
+			
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = no 
+		}
+
+		removal_cost = -1
+
+		picture = generic_infantry_bonus
+			
+		modifier = {
+			production_factory_efficiency_gain_factor = 2
+		}
+	}
+
+	aggressive_industry_idea = {
+		
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = no 
+		}
+
+		removal_cost = -1
+
+		picture = generic_infantry_bonus
+
+		modifier = {
+			training_time_army_factor = -0.75
+			conversion_cost_civ_to_mil_factor = -0.5
+		}
+	}
+
+	buildup_industry_idea = {
+			
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = no 
+		}
+
+		removal_cost = -1
+
+		picture = generic_infantry_bonus
+
+		modifier = {
+			production_speed_buildings_factor = 1
+		}
+	}
+
+	infrastructure_build_idea = {
+			
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = no 
+		}
+
+		removal_cost = -1
+
+		picture = generic_infantry_bonus
+			
+		modifier = {
+			production_speed_infrastructure_factor = 0.5
+			production_speed_rail_way_factor = 0.5
+			production_speed_supply_node_factor = 1
+		}
+	}
+
+	mech_build_idea = {
+			
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = no 
+		}
+
+		removal_cost = -1
+
+		picture = generic_infantry_bonus
+
+		equipment_bonus = {
+			mechanized_equipment = {
+				instant = yes
+				build_cost_ic = -0.2
+			}
+		}
+	}
+
+	lighttank_build_idea = {
+			
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = no 
+		}
+
+		removal_cost = -1
+
+		picture = generic_infantry_bonus
+
+		equipment_bonus = {
+			light_tank_chassis = {
+				instant = yes
+				build_cost_ic = -0.25
+			} 
+		}
+	}
+
+	mediumtank_build_idea = {
+			
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = no 
+		}
+
+		removal_cost = -1
+
+		picture = generic_infantry_bonus
+
+		equipment_bonus = {
+			medium_tank_chassis = {
+				instant = yes
+				build_cost_ic = -0.2
+			}
+		}
+	}
+
+	heavytank_build_idea = {
+			
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = no 
+		}
+
+		removal_cost = -1
+
+		picture = generic_infantry_bonus
+
+		equipment_bonus = {
+			medium_tank_chassis = {
+				instant = yes
+				build_cost_ic = -0.15
+			}
+		}
+	}
+
+	logs_focus = {
+			
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = no 
+		}
+
+		removal_cost = -1
+
+		picture = generic_infantry_bonus
+
+		equipment_bonus = {
+			train_equipment = {
+				instant = yes
+				build_cost_ic = -0.5
+			}
+			support_equipment = {
+				instant = yes
+				build_cost_ic = -0.5
+			}
+			motorized_equipment = {
+				instant = yes
+				build_cost_ic = -0.5
+			}
+		}
+	}
+
+	light_air_build_idea = {
+			
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = no 
+		}
+
+		removal_cost = -1
+
+		picture = generic_infantry_bonus
+
+		equipment_bonus = {
+			small_plane_airframe = {
+				instant = yes
+				build_cost_ic = -0.25
+			}
+		}
+	}
+
+	medium_air_build_idea = {
+			
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = no 
+		}
+
+		removal_cost = -1
+
+		picture = generic_infantry_bonus
+
+		equipment_bonus = {
+			medium_tank_chassis = {
+				instant = yes
+				build_cost_ic = -0.25
+			}
+		}
+	}
+
+	heavy_air_build_idea = {
+			
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = no 
+		}
+
+		removal_cost = -1
+
+		picture = generic_infantry_bonus
+
+		equipment_bonus = {
+			medium_tank_chassis = {
+				instant = yes
+				build_cost_ic = -0.25
+			}
+		}
+	}
+
+	transport_plane_idea = {
+			
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = no 
+		}
+
+		removal_cost = -1
+
+		picture = generic_infantry_bonus
+
+		equipment_bonus = {
+			transport_plane_equipment = {
+				instant = yes
+				build_cost_ic = -0.5
+			}
+		}
+	}
+}

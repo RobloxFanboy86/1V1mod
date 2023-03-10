@@ -1,0 +1,590 @@
+﻿focus_tree = {
+	id = generic_west_tree_west
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = WST
+			
+		}
+
+		
+	}
+	#Focus for Aggressive Industry
+	focus = {
+		id = west_aggressive_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 1
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+	completion_reward = { set_technology = { concentrated_industry = 1 }add_timed_idea = { idea = aggressive_industry_idea days = 30 } 
+	9 = { add_extra_state_shared_building_slots = 4 add_building_construction = { type = arms_factory level = 4 } }
+4 = { add_extra_state_shared_building_slots = 4 add_building_construction = { type = arms_factory level = 4 } } 
+15 = { add_extra_state_shared_building_slots = 4 add_building_construction = { type = arms_factory level = 4 } }
+12 = { add_extra_state_shared_building_slots = 4 add_building_construction = { type = arms_factory level = 4 } }
+
+7 = { add_extra_state_shared_building_slots = 4 add_building_construction = { type = arms_factory level = 4 } }}
+		mutually_exclusive = { 
+			focus = west_aggressive_industry 
+		}
+		mutually_exclusive = { 
+			focus = west_balanced_industry 
+		}
+		mutually_exclusive = { 
+			focus = west_buildup_industry 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Balanced Industry
+	focus = {
+		id = west_balanced_industry
+		icon = GFX_goal_generic_production2
+		x = 3
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+completion_reward = { add_tech_bonus = {
+    bonus = 1
+    uses = 3
+    category = industry
+} 
+	9 = { add_extra_state_shared_building_slots = 5 add_building_construction = { type = arms_factory level = 2 }add_building_construction = { type = industrial_complex level = 3 } }
+4 = { add_extra_state_shared_building_slots = 5 add_building_construction = { type = arms_factory level = 2 }add_building_construction = { type = industrial_complex level = 3 } } 
+15 = { add_extra_state_shared_building_slots = 5 add_building_construction = { type = arms_factory level = 2 } add_building_construction = { type = industrial_complex level = 3 }}
+12 = { add_extra_state_shared_building_slots = 5 add_building_construction = { type = arms_factory level = 2 } add_building_construction = { type = industrial_complex level = 3 }}
+
+7 = { add_extra_state_shared_building_slots = 5 add_building_construction = { type = arms_factory level = 2 } add_building_construction = { type = industrial_complex level = 3 }}}
+		mutually_exclusive = { 
+			focus = west_aggressive_industry 
+		}
+		mutually_exclusive = { 
+			focus = west_buildup_industry 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Buildup Industry
+	focus = {
+		id = west_buildup_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 5
+		y = 1
+		cost = 2
+completion_reward = { set_technology = { dispersed_industry = 1 }add_timed_idea = { idea = buildup_industry_idea days = 30 } 
+	9 = { add_extra_state_shared_building_slots = 5 add_building_construction = { type = industrial_complex level = 5 } }
+4 = { add_extra_state_shared_building_slots = 5 add_building_construction = { type = industrial_complex level = 5 } } 
+15 = { add_extra_state_shared_building_slots = 5 add_building_construction = { type = industrial_complex level = 5 } }
+12 = { add_extra_state_shared_building_slots = 5 add_building_construction = { type = industrial_complex level = 5 } }
+
+7 = { add_extra_state_shared_building_slots = 5 add_building_construction = { type = industrial_complex level = 5 } }}
+		available_if_capitulated = yes
+		mutually_exclusive = { 
+			focus = west_aggressive_industry 
+		}
+		mutually_exclusive = { 
+			focus = west_balanced_industry 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Research Drive
+	focus = {
+		id = west_research_drive
+		icon = GFX_focus_research2
+		x = 2
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+	completion_reward = { add_research_slot = 1}
+		prerequisite = { 
+			focus = west_aggressive_industry 
+			focus = west_balanced_industry 
+			focus = west_buildup_industry 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mobile Warfare
+	focus = {
+		id = west_mobile_warfare
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+	completion_reward = { set_technology = { mobile_warfare = 1 delay = 1 elastic_defence = 1} add_doctrine_cost_reduction = {
+	cost_reduction = 0.5
+	uses = 2
+	category = land_doctrine
+}}
+		mutually_exclusive = { 
+			focus = west_mobile_warfare 
+		}
+		mutually_exclusive = { 
+			focus = west_superior_firepower 
+		}
+		mutually_exclusive = { 
+			focus = west_grand_battleplan 
+		}
+		mutually_exclusive = { 
+			focus = west_mass_assault 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Superior Firepower
+	focus = {
+		id = west_superior_firepower
+		icon = GFX_goal_unknown
+		x = 10
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+completion_reward = { set_technology = { superior_firepower = 1 sup_delay = 1 mobile_defence = 1} add_doctrine_cost_reduction = {
+	cost_reduction = 0.5
+	uses = 1
+	category = land_doctrine
+}}
+		mutually_exclusive = { 
+			focus = west_mobile_warfare 
+		}
+		mutually_exclusive = { 
+			focus = west_grand_battleplan 
+		}
+		mutually_exclusive = { 
+			focus = west_mass_assault 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Grand Battleplan
+	focus = {
+		id = west_grand_battleplan
+		icon = GFX_goal_unknown
+		x = 12
+		y = 1
+		cost = 2
+completion_reward = { set_technology = { trench_warfare = 1 grand_battle_plan = 1 prepared_defense = 1 grand_assault = 1} add_doctrine_cost_reduction = {
+	cost_reduction = 0.5
+	uses = 2
+	category = land_doctrine
+}}
+		available_if_capitulated = yes
+		mutually_exclusive = { 
+			focus = west_mobile_warfare 
+		}
+		mutually_exclusive = { 
+			focus = west_superior_firepower 
+		}
+		mutually_exclusive = { 
+			focus = west_mass_assault 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mass Assault
+	focus = {
+		id = west_mass_assault
+		icon = GFX_goal_unknown
+		x = 14
+		y = 1
+		cost = 2
+completion_reward = { set_technology = { mass_assault = 1 pocket_defence = 1 defence_in_depth = 1 } add_doctrine_cost_reduction = {
+	cost_reduction = 0.5
+	uses = 5
+	category = land_doctrine
+}}
+		available_if_capitulated = yes
+		mutually_exclusive = { 
+			focus = west_mobile_warfare 
+		}
+		mutually_exclusive = { 
+			focus = west_superior_firepower 
+		}
+		mutually_exclusive = { 
+			focus = west_grand_battleplan 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mechanized Infantry
+	focus = {
+		id = west_mechanized_infantry
+		icon = GFX_goal_generic_army_motorized
+		x = 8
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+	completion_reward = {set_technology = { mechanised_infantry = 1 }add_ideas =  mech_build_idea 
+
+}
+		prerequisite = { 
+			focus = west_mobile_warfare 
+			focus = west_superior_firepower 
+			focus = west_grand_battleplan 
+			focus = west_mass_assault 
+		}
+		mutually_exclusive = { 
+			focus = west_medium_tanks 
+		}
+		mutually_exclusive = { 
+			focus = west_light_tanks 
+		}
+		mutually_exclusive = { 
+			focus = west_mechanized_infantry 
+		}
+		mutually_exclusive = { 
+			focus = west_heavy_tanks 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Light Tanks
+	focus = {
+		id = west_light_tanks
+		icon = GFX_focus_NZL_bob_semple_tank
+		x = 10
+		y = 2
+		cost = 10
+completion_reward = { add_ideas = lighttank_build_idea IF = { limit = { has_dlc = "No Step Back"} 
+set_technology = { improved_light_tank_chassis = 1 } }
+IF = { limit = { NOT = {  has_dlc = "No Step Back"} }
+set_technology = { improved_light_tank = 1 } }
+}
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = west_mobile_warfare 
+			focus = west_superior_firepower 
+			focus = west_grand_battleplan 
+			focus = west_mass_assault 
+		}
+		mutually_exclusive = { 
+			focus = west_mechanized_infantry 
+		}
+		mutually_exclusive = { 
+			focus = west_medium_tanks 
+		}
+		mutually_exclusive = { 
+			focus = west_heavy_tanks 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Medium Tanks
+	focus = {
+		id = west_medium_tanks
+		icon = GFX_goal_generic_army_tanks
+		x = 12
+		y = 2
+		cost =2
+		available_if_capitulated = yes
+completion_reward = { add_ideas = mediumtank_build_idea IF = { limit = { has_dlc = "No Step Back"} 
+set_technology = { improved_medium_tank_chassis = 1 } }
+IF = { limit = { NOT = {  has_dlc = "No Step Back"} }
+set_technology = { medium_light_tank = 1 } }
+}
+		prerequisite = { 
+			focus = west_mobile_warfare 
+			focus = west_superior_firepower 
+			focus = west_grand_battleplan 
+			focus = west_mass_assault 
+		}
+		mutually_exclusive = { 
+			focus = west_mechanized_infantry 
+		}
+		mutually_exclusive = { 
+			focus = west_light_tanks 
+		}
+		mutually_exclusive = { 
+			focus = west_heavy_tanks 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Heavy Tanks
+	focus = {
+		id = west_heavy_tanks
+		icon = GFX_focus_generic_army_tanks2
+		x = 14
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = west_mobile_warfare 
+			focus = west_superior_firepower 
+			focus = west_grand_battleplan 
+			focus = west_mass_assault 
+		}
+completion_reward = { add_ideas = heavytank_build_idea IF = { limit = { has_dlc = "No Step Back"} 
+set_technology = { improved_heavy_tank_chassis = 1 } }
+IF = { limit = { NOT = {  has_dlc = "No Step Back"} }
+set_technology = { improved_heavy_tank = 1 } }
+}
+		mutually_exclusive = { 
+			focus = west_mechanized_infantry 
+		}
+		mutually_exclusive = { 
+			focus = west_light_tanks 
+		}
+		mutually_exclusive = { 
+			focus = west_medium_tanks 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Logistics Focus
+	focus = {
+		id = west_logistics_focus
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = west_mobile_warfare 
+			focus = west_superior_firepower 
+			focus = west_grand_battleplan 
+			focus = west_mass_assault 
+		}
+	completion_reward = { add_timed_idea = { idea = logs_focus days = 30 } } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Infrastructure And Logistics
+	focus = {
+		id = west_infrastructure_and_logistics
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 4
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = {add_timed_idea = { idea =  infrastructure_build_idea days = 30 } } 
+		prerequisite = { 
+			focus = west_aggressive_industry 
+			focus = west_balanced_industry 
+			focus = west_buildup_industry 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Strategic Destruction
+	focus = {
+		id = west_strategic_destruction
+		icon = GFX_goal_unknown
+		x = 18
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		completion_reward = { set_technology = { air_superiority = 1 infrastructure_destruction = 1 home_defence = 1 }}
+		mutually_exclusive = { 
+			focus = west_battlefield_support 
+		}
+		mutually_exclusive = { 
+			focus = west_operational_integrity 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Battlefield Support
+	focus = {
+		id = west_battlefield_support
+		icon = GFX_goal_unknown
+		x = 20
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = { set_technology = { formation_flying = 1 dive_bombing = 1 direct_ground_support = 1 }}
+		mutually_exclusive = { 
+			focus = west_strategic_destruction 
+		}
+		mutually_exclusive = { 
+			focus = west_operational_integrity 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Operational Integrity
+	focus = {
+		id = west_operational_integrity
+		icon = GFX_goal_unknown
+		x = 22
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = { set_technology = { force_rotation = 1 fighter_baiting = 1 low_echelon_support = 1 }}
+		mutually_exclusive = { 
+			focus = west_strategic_destruction 
+		}
+		mutually_exclusive = { 
+			focus = west_battlefield_support 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Light Airframes
+	focus = {
+		id = west_light_airframes
+		icon = GFX_goal_generic_air_fighter2
+		x = 18
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+completion_reward = { add_ideas = light_air_build_idea IF = { limit = { has_dlc = "By Blood Alone"} 
+set_technology = { improved_small_airframe = 1 } }
+IF = { limit = { NOT = {  has_dlc = "By Blood Alone"} }
+set_technology = { fighter1 = 1 cas1 = 1 } }
+}
+		prerequisite = { 
+			focus = west_strategic_destruction 
+			focus = west_battlefield_support 
+			focus = west_operational_integrity 
+		}
+		mutually_exclusive = { 
+			focus = west_heavy_airframes 
+		}
+		mutually_exclusive = { 
+			focus = west_medium_airframes 
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Medium Airframes
+	focus = {
+		id = west_medium_airframes
+		icon = GFX_goal_generic_air_bomber
+		x = 20
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+completion_reward = { add_ideas = medium_air_build_idea IF = { limit = { has_dlc = "By Blood Alone" }
+set_technology = { improved_medium_airframe = 1 } }
+IF = { limit = { NOT = {  has_dlc = "By Blood Alone"} }
+set_technology = { heavy_fighter1 = 1 tactical_bomber1 = 1 } }
+}
+		prerequisite = { 
+			focus = west_strategic_destruction 
+			focus = west_battlefield_support 
+			focus = west_operational_integrity 
+		}
+		mutually_exclusive = { focus = west_light_airframes }
+			mutually_exclusive = { focus = west_heavy_airframes }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Heavy Airframes
+	focus = {
+		id = west_heavy_airframes
+		icon = GFX_goal_generic_air_doctrine
+		x = 22
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+completion_reward = { add_ideas = heavy_air_build_idea IF = { limit = { has_dlc = "By Blood Alone" }
+set_technology = { improved_heavy_airframe = 1 } }
+IF = { limit = { NOT = {  has_dlc = "By Blood Alone"} }
+set_technology = { strategic_bomber1 = 1 } }
+}
+		prerequisite = { 
+			focus = west_strategic_destruction 
+			focus = west_battlefield_support 
+			focus = west_operational_integrity 
+		}
+		mutually_exclusive = { focus = west_light_airframes }
+		mutually_exclusive = { 
+			focus = west_medium_airframes 
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Transport Planes
+	focus = {
+		id = west_transport_planes
+		icon = GFX_focus_generic_paratrooper
+		x = 24
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = { add_timed_idea = { idea = transport_plane_idea days = 30 } }
+		prerequisite = { 
+			focus = west_strategic_destruction 
+			focus = west_battlefield_support 
+			focus = west_operational_integrity 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Boost Aircraft Production
+	focus = {
+		id = west_boost_aircraft_production
+		icon = GFX_goal_generic_production
+		x = 20
+		y = 4
+		cost = 10
+		completion_reward = { add_research_slot = 1 }
+	available = { OR = { has_completed_focus = west_aggressive_industry 
+				has_completed_focus =  west_balanced_industry 
+				has_completed_focus =  west_buildup_industry 
+			
+			
+		} }
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = west_light_airframes 
+			focus = west_medium_airframes 
+			focus = west_heavy_airframes 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }
