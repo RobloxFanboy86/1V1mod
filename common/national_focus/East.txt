@@ -8,9 +8,10 @@
 			tag = EST
 			
 		}
-
+		
 		
 	}
-	
+	shared_focus = shared_mil_start
+	shared_focus = shared_air_start
 #End of focuses 
- }
+}

@@ -1,0 +1,436 @@
+
+############################
+#MILITARY
+############################
+shared_focus = {
+	id = shared_mil_start
+	icon = t 
+	cost = 0
+	x = 20
+	y = 0
+	bypass = {
+		always = yes
+	}
+	completion_reward = { 
+		custom_effect_tooltip = this_focus_does_nothing
+	}
+}
+shared_focus = {
+	id = everyone_serves
+	icon = t
+	cost = 2
+	relative_position_id = shared_mil_start
+	x = -6
+	y = 1
+	prerequisite = {
+		focus = shared_mil_start
+	}
+	mutually_exclusive = {
+		focus = special_forces_focus
+	}
+	completion_reward = { 
+		add_ideas = everyone_serves_idea
+	}
+}
+shared_focus = {
+	id = special_forces_focus
+	icon = t
+	cost = 2
+	relative_position_id = shared_mil_start
+	x = -4
+	y = 1
+	prerequisite = {
+		focus = shared_mil_start
+	}
+	mutually_exclusive = {
+		focus = everyone_serves
+	}
+	completion_reward = { 
+		add_ideas = special_forces_idea
+		
+	}
+}
+shared_focus = {
+	id = special_forces_mountaineer
+	icon = t
+	cost = 2
+	relative_position_id = special_forces_focus
+	x = -2
+	y = 1
+	prerequisite = {
+		focus = special_forces_focus
+	}
+	completion_reward = { 
+		swap_ideas = {
+			add_idea = special_forces_mountaineers
+			remove_idea = special_forces_idea
+		}
+		
+	}
+}
+shared_focus = {
+	id = special_forces_marine
+	icon = t
+	cost = 2
+	relative_position_id = special_forces_focus
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = special_forces_focus
+	}
+	completion_reward = { 
+		swap_ideas = {
+			add_idea = special_forces_mountaineers
+			remove_idea = special_forces_idea
+		}
+		
+	}
+}
+shared_focus = {
+	id = special_forces_paratroop
+	icon = t
+	cost = 2
+	relative_position_id = special_forces_focus
+	x = 2
+	y = 1
+	prerequisite = {
+		focus = special_forces_focus
+	}
+	completion_reward = { 
+		swap_ideas = {
+			add_idea = special_forces_paratroops
+			remove_idea = special_forces_idea
+		}
+		
+	}
+}
+shared_focus = {
+	id = light_tanks
+	icon = t
+	cost = 2
+	relative_position_id = shared_mil_start
+	x = -2
+	y = 1
+	prerequisite = {
+		focus = shared_mil_start
+	}
+	mutually_exclusive = {
+		focus = medium_tanks
+		focus = heavy_tanks
+	}
+	completion_reward = { 
+		set_technology = {
+			improved_light_tank_chassis = 1
+		}
+		add_ideas = light_tank_production
+		
+		add_tech_bonus = {
+			category = cat_light_armor
+			bonus = 2
+			uses = 1
+		}
+		
+		create_equipment_variant = {
+			name = "Light Tank Variant"
+			type = light_tank_chassis_1
+			modules = {
+				main_armament_slot = tank_small_cannon_2
+				turret_type_slot = tank_light_three_man_tank_turret
+				suspension_type_slot = tank_christie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = secondary_turret_hmg
+				special_type_slot_2 = smoke_launchers
+				special_type_slot_3 = additional_machine_guns
+				special_type_slot_4 = smoke_launchers
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 9
+			}
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_1
+			amount = 2500
+			variant_name = "Light Tank Variant"
+		}
+	}
+}
+shared_focus = {
+	id = medium_tanks
+	icon = t
+	cost = 3
+	relative_position_id = shared_mil_start
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = shared_mil_start
+	}
+	mutually_exclusive = {
+		focus = light_tanks
+		focus = heavy_tanks
+	}
+	completion_reward = { 
+		set_technology = {
+			improved_medium_tank_chassis = 1
+		}
+		add_ideas = medium_tank_production
+		
+		create_equipment_variant = {
+			name = "Medium Tank Variant"
+			type = medium_tank_chassis_1
+			modules = {
+				main_armament_slot = tank_medium_cannon
+				turret_type_slot = tank_medium_three_man_tank_turret
+				suspension_type_slot = tank_christie_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = secondary_turret_hmg
+				special_type_slot_2 = secondary_turret_hmg
+				special_type_slot_3 = additional_machine_guns
+				special_type_slot_4 = additional_machine_guns
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 4
+			}
+			
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_1
+			amount = 1500
+			variant_name = "Medium Tank Variant"
+		}
+	}
+}
+shared_focus = {
+	id = heavy_tanks
+	icon = t
+	cost = 4
+	relative_position_id = shared_mil_start
+	x = 2
+	y = 1
+	prerequisite = {
+		focus = shared_mil_start
+	}
+	mutually_exclusive = {
+		focus = light_tanks
+		focus = medium_tanks
+	}
+	completion_reward = { 
+		set_technology = {
+			improved_heavy_tank_chassis = 1
+		}
+		add_ideas = heavy_tank_production
+		
+		create_equipment_variant = {
+			name = "Heavy Tank Variant"
+			type = heavy_tank_chassis_1
+			modules = {
+				main_armament_slot = tank_heavy_cannon
+				turret_type_slot = tank_heavy_three_man_tank_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_cast_armor
+				engine_type_slot = tank_diesel_engine
+				special_type_slot_1 = secondary_turret_small_cannon
+				special_type_slot_2 = secondary_turret_small_cannon
+				special_type_slot_3 = secondary_turret_small_cannon
+				special_type_slot_4 = wet_ammo_storage
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 9
+			}
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_chassis_1
+			amount = 1000
+			variant_name = "Heavy Tank Variant"
+		}
+		
+	}
+}
+shared_focus = { #Prerequiesite removed so not in game currently
+	id = super_heavy_tanks
+	icon = t
+	cost = 8
+	relative_position_id = heavy_tanks
+	x = 0
+	y = 1
+	
+	completion_reward = {
+		set_technology = {
+			super_heavy_tank_chassis = 1
+		}
+		add_ideas = super_heavy_tank_production
+		add_equipment_to_stockpile = {
+			type = super_heavy_tank_chassis
+			amount = 400
+		}
+	}
+}
+shared_focus = {
+	id = land_forts
+	icon = t
+	cost = 3
+	relative_position_id = shared_mil_start 
+	x = 4
+	y = 1
+	prerequisite = {
+		focus = shared_mil_start
+	}
+	completion_reward = { 
+		add_timed_idea = {
+			idea = build_forts
+			days = 60
+		}
+	}
+}
+shared_focus = {
+	id = army_logi_drive
+	icon = t
+	cost = 3
+	relative_position_id = shared_mil_start 
+	x = 6
+	y = 1
+	prerequisite = {
+		focus = shared_mil_start
+	}
+	completion_reward = { 
+		add_timed_idea = {
+			idea = logi_drive
+			days = 60
+		}
+	}
+}
+############################
+#AIR
+############################
+
+shared_focus = {
+	id = shared_air_start
+	icon = t
+	cost = 0
+	x = 35
+	y = 0
+	bypass = {
+		always = yes
+	}
+	completion_reward = {
+		custom_effect_tooltip = this_focus_does_nothing
+	}
+	
+}
+shared_focus = {
+	id = scout_planes
+	icon = t
+	cost = 2
+	relative_position_id = shared_air_start 
+	x = -3
+	y = 1
+	prerequisite = {
+		focus = shared_air_start
+	}
+	completion_reward = {
+		create_equipment_variant = {
+			name = "Scout Plane Variant"
+			type = medium_plane_scout_plane_airframe_1
+			modules = {
+				fixed_main_weapon_slot = recon_camera
+				engine_type_slot = engine_1_2x
+			}
+		}
+		add_equipment_to_stockpile = {
+			type = medium_plane_scout_plane_airframe_1
+			amount = 30
+			variant_name = "Scout Plane Variant"
+		}
+		
+	}
+}
+shared_focus = {
+	id = light_fighters
+	icon = t
+	cost = 4
+	relative_position_id = shared_air_start 
+	x = -1
+	y = 1
+	prerequisite = {
+		focus = shared_air_start
+	}
+	completion_reward = {
+		set_technology = {
+			improved_small_airframe = 1
+		}
+		create_equipment_variant = {
+			name = "Light Fighters Variant"
+			type = small_plane_airframe_2
+			modules = {
+				fixed_main_weapon_slot = light_mg_2x
+				fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				fixed_auxiliary_weapon_slot_2 = light_mg_4x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+				special_type_slot_2 = armor_plate_small
+				special_type_slot_3 = drop_tanks
+			}
+
+		}
+		add_equipment_to_stockpile = {
+			type = small_plane_airframe_2
+			amount = 100
+			variant_name = "Light Fighters Variant"
+		}
+		
+	}
+}
+shared_focus = {
+	id = heavy_fighters
+	icon = t
+	cost = 2
+	relative_position_id = shared_air_start 
+	x = 1
+	y = 1
+	prerequisite = {
+		focus = shared_air_start
+	}
+	completion_reward = {
+		set_technology = {
+			improved_small_airframe = 1
+			aa_cannon_1 = 1
+			improved_medium_airframe = 1
+		}
+		create_equipment_variant = {
+			name = "Heavy Fighters Variant"
+			type = medium_plane_fighter_airframe_1
+			modules = {
+				fixed_main_weapon_slot = aircraft_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				fixed_auxiliary_weapon_slot_2 = light_mg_4x
+				fixed_auxiliary_weapon_slot_3 = aircraft_cannon_1_1x
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+				special_type_slot_2 = lmg_defense_turret
+				special_type_slot_3 = fuel_tanks_medium
+				special_type_slot_4 = fuel_tanks_medium
+			}
+
+		}
+		add_equipment_to_stockpile = {
+			type = medium_plane_fighter_airframe_1
+			amount = 200
+			variant_name = "Heavy Fighters Variant"
+		}
+		
+	}
+}
+shared_focus = {
+	id = air_defence_focus
+	icon = t
+	cost = 2
+	relative_position_id = shared_air_start
+	x = 3
+	y = 1
+	prerequisite = {
+		focus = shared_air_start
+	}
+	completion_reward = { 
+		add_ideas = air_defence_idea
+	}
+}
