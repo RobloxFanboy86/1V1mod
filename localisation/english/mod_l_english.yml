@@ -22,8 +22,18 @@
  mod_explanation_text_1:0 "If you have less than 20 city points you will lose points for every city point you have lost. This triggers every third day."
  mod_explanation_text_2:0 "For example if you have 17 city points you will lose 3 point every third day."
 
+ aggressive_industry:0 "Aggressive Industry"
+
  #Tooltips
  this_focus_does_nothing:0 "§GThis focus does nothing and can be bypassed immediately.§!"
-
+ 
+ aggressive_tt_start:0 "      Equipment Capture Ratio: §G+3%§!\n      Equipment Conversion Speed: §G+10%§!" #dont mind the weird blue text if you use VSCODE, hoi4 addon hates colons
+ aggressive_tt:0 "Modify §YAggressive Industry§! by\n      Equipment Capture Ratio: §G+3%§!"
+ labour_tt:0 "Modify §YAggressive Industry§! or §YFlexible Industry§! by\n      Factory Output: §G+10%§!\n      Production Retention: §G+20%§!\n      Equipment Conversion Speed: §G+10%§!"
+ flexible_tt_start:0 "      Construction Speed: §G +10%§!"
+ flexible_tt:0 "Modify §YFlexible Industry§! By:\n      Construction Speed: §G +10%§!"
+ production_tt:0 "Modify §YBuildup Industry§! or §YFlexible Industry§! by\n      Production Efficiency Base: §G+10%§!\n      Production Efficiency Cap: §G+10%§!"
+ buildup_tt_start:0 "       Factory Output: §G +2.5%§!"
+ buildup_tt:0 "Modify §YBuildup Industry§! By:\n       Factory Output: §G +2.5%§!"
  #FOCUSES
  

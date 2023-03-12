@@ -100,5 +100,23 @@ ideas = {
 				production_speed_radar_station_factor = 1
 			}
 		}
+		tac_bomber_production = {
+			picture = t
+			equipment_bonus = {
+				medium_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.15
+				}
+			}
+		}
+		strat_bomber_production = {
+			picture = t
+			equipment_bonus = {
+				large_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
 	}
 }
