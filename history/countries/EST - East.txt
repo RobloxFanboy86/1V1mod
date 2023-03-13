@@ -89,22 +89,36 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-	gwtank_chassis = 1
-	basic_light_tank_chassis = 1
-	basic_medium_tank_chassis  = 1
-	basic_heavy_tank_chassis = 1
-	armor_tech_1 = 1 
-	engine_tech_1 = 1
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_medium_tank_chassis  = 1
+		basic_heavy_tank_chassis = 1
+		armor_tech_1 = 1 
+		engine_tech_1 = 1
 	}
+}
+add_ideas = doctrine_spirit
 add_equipment_to_stockpile = {
 	type = train_equipment
 	amount = 100
 }
 add_equipment_to_stockpile = {
-	type = transport_plane_equipment
-	amount = 100
+	type = infantry_equipment
+	amount = 10000
 }
-army_experience = 50
+add_equipment_to_stockpile = {
+	type = support_equipment
+	amount = 500
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment
+	amount = 1000
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment
+	amount = 500
+}
+army_experience = 300
 air_experience = 50
 set_research_slots = 3
 create_corps_commander = {

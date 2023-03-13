@@ -16,6 +16,7 @@
  mod_production_bonus:0 "Production bonus - 20 days"
 
  #Ideas
+ doctrine_spirit:0 "Army Doctrines"
  mod_boost_production_efficiency:0 "Production boost - 20 days"
 
  mod_explanation_title:0 "§HHow it works§"

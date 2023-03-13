@@ -1,6 +1,15 @@
 ideas = {
 	country = {
 		
+		doctrine_spirit = {
+			picture = generic_neutrality_drift_bonus
+			modifier = {
+				cat_mobile_warfare_cost_factor = -0.15
+				cat_superior_firepower_cost_factor = 0.5
+				cat_mass_assault_cost_factor = -0.25
+			}
+		}
+
 		#ARMY
 		everyone_serves_idea = {
 			picture = generic_manpower_bonus
