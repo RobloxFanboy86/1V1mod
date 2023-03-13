@@ -10,7 +10,7 @@ aggressive_industry = {
 	
 }
 flexible_industry = {
-	icon = GFX_ideaman_five_year_plan_industry
+	icon = GFX_idea_man_five_year_plan_industry
 	production_speed_buildings_factor = balanced_construction_speed
 	industrial_capacity_factory = balanced_factory_output
 	equipment_conversion_speed = balanced_conversion_speed
@@ -20,9 +20,9 @@ flexible_industry = {
 	
 }
 buildup_industry = {
-	icon = GFX_ideageneric_goods_red_bonus
+	icon = GFX_idea_generic_goods_red_bonus
 	production_speed_buildings_factor = 0.25
-	industrial_capacity_factory = buildup_factory_output
+	production_factory_efficiency_gain_factor = buildup_efficiency_gain
 	production_factory_start_efficiency_factor = buildup_efficiency_base
 	production_factory_max_efficiency_factor = buildup_efficiency_cap
 }

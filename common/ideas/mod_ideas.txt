@@ -3,13 +3,13 @@ ideas = {
 		
 		#ARMY
 		everyone_serves_idea = {
-			picture = t
+			picture = generic_manpower_bonus
 			modifier = {
 				training_time_factor = -0.3
 			}
 		}
 		special_forces_idea = {
-			picture = t
+			picture = eng_special_air_service
 			modifier = {
 				special_forces_min = 10
 			}
@@ -36,7 +36,7 @@ ideas = {
 			}
 		}
 		light_tank_production = {
-			picture = t
+			picture = generic_acquire_tanks
 			equipment_bonus = {
 				light_tank_chassis = {
 					instant = yes
@@ -45,7 +45,7 @@ ideas = {
 			}
 		}
 		medium_tank_production = {
-			picture = t
+			picture = generic_acquire_tanks
 			equipment_bonus = {
 				medium_tank_chassis = {
 					instant = yes
@@ -54,7 +54,7 @@ ideas = {
 			}
 		}
 		heavy_tank_production = {
-			picture = t
+			picture = generic_acquire_tanks
 			equipment_bonus = {
 				heavy_tank_chassis = {
 					instant = yes
@@ -72,12 +72,13 @@ ideas = {
 			}
 		}
 		build_forts = {
-			picture = t
+			picture = generic_fortify_the_borders
 			modifier = {
 				production_speed_bunker_factor = 1
 			}
 		}
 		logi_drive = {
+			picture = generic_build_infrastructure
 			equipment_bonus = {
 				motorized_equipment = {
 					instant = yes
@@ -94,14 +95,14 @@ ideas = {
 			}
 		}
 		air_defence_idea = {
-			picture = t
+			picture = generic_aircraft_support
 			modifier = {
 				production_speed_anti_air_building_factor = 1
 				production_speed_radar_station_factor = 1
 			}
 		}
 		tac_bomber_production = {
-			picture = t
+			picture = generic_air_payment
 			equipment_bonus = {
 				medium_plane_airframe = {
 					instant = yes
@@ -110,7 +111,7 @@ ideas = {
 			}
 		}
 		strat_bomber_production = {
-			picture = t
+			picture = generic_air_research
 			equipment_bonus = {
 				large_plane_airframe = {
 					instant = yes
