@@ -118,6 +118,23 @@ add_equipment_to_stockpile = {
 	type = motorized_equipment
 	amount = 500
 }
+create_equipment_variant = {
+	name = "Starter Fighters"
+	type = small_plane_airframe_1
+	modules = {
+		fixed_main_weapon_slot = light_mg_4x
+		fixed_auxiliary_weapon_slot_1 = light_mg_4x
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = self_sealing_fuel_tanks_small
+		special_type_slot_2 = armor_plate_small
+	}
+
+}
+add_equipment_to_stockpile = {
+	type = small_plane_airframe_1
+	amount = 400
+	variant_name = "Starter Fighters"
+}
 army_experience = 300
 air_experience = 300
 set_research_slots = 3

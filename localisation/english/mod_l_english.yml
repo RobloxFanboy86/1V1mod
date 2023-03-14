@@ -42,6 +42,8 @@
  #Tooltips
  this_focus_does_nothing:0 "§GThis focus does nothing and can be bypassed immediately.§!"
  
+
+ 
  aggressive_tt_start:0 "      Equipment Capture Ratio: §G+3%§!\n      Equipment Conversion Speed: §G+10%§!" #dont mind the weird blue text if you use VSCODE, hoi4 addon hates colons
  aggressive_tt:0 "Modify §YAggressive Industry§! by\n      Equipment Capture Ratio: §G+3%§!"
  labour_tt:0 "Modify §YAggressive Industry§! or §YFlexible Industry§! by\n      Factory Output: §G+10%§!\n      Production Retention: §G+20%§!\n      Equipment Conversion Speed: §G+10%§!"
@@ -55,6 +57,10 @@
  spawn_mountaineers:0 "Spawns §G4§! §Y10/5§! Mountaineers"
  spawn_marines:0 "Spawns §G4§! §Y10/5§! Marines"
  spawn_paratroops:0 "Spawns §G2§! §Y30 Width§! Paratroopers"
+
+ scout_tt:0 "§Y30§! units of §YScout Plane§! is added to the national stockpile."
+ fighter2_tt:0 "§Y100§! units of §YImproved Small Airframe§! is added to the national stockpile."
+ heavyfighter_tt:0 "§Y200§! units of §YHeavy Fighters Variant§! is added to the national stockpile."
  #FOCUSES
  shared_ind_start:0 "Industry"
  aggressive_industry_focus:0 "Aggressive Industry"
