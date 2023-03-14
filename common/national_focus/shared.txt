@@ -22,7 +22,7 @@ shared_focus = {
 	icon = GFX_focus_generic_tank_production
 	cost = 2
 	relative_position_id = shared_ind_start
-	x = -2
+	x = -3
 	y = 1
 	prerequisite = {
 		focus = shared_ind_start
@@ -74,7 +74,7 @@ shared_focus = {
 	icon = GFX_focus_generic_tank_production
 	cost = 2
 	relative_position_id = aggressive_industry_focus
-	x = -2
+	x = -1
 	y = 1
 	prerequisite = {
 		focus = aggressive_industry_focus
@@ -202,7 +202,7 @@ shared_focus = {
 	icon = GFX_goal_generic_construction2
 	cost = 2
 	relative_position_id = aggressive_industry_focus
-	x = 0
+	x = 1
 	y = 1
 	prerequisite = {
 		focus = aggressive_industry_focus
@@ -212,6 +212,7 @@ shared_focus = {
 		NOT = {
 			has_completed_focus = production_1
 		}
+		
 	}
 	completion_reward = {
 		custom_effect_tooltip = labour_tt
@@ -238,6 +239,10 @@ shared_focus = {
 		NOT = {
 			has_completed_focus = production_2
 		}
+		OR = {
+			has_completed_focus = production_1
+			has_completed_focus = labour_1
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = labour_tt
@@ -263,6 +268,10 @@ shared_focus = {
 	available = {
 		NOT = {
 			has_completed_focus = production_3
+		}
+		OR = {
+			has_completed_focus = production_2
+			has_completed_focus = labour_2
 		}
 	}
 	completion_reward = {
@@ -488,7 +497,7 @@ shared_focus = {
 	icon = GFX_goal_continuous_naval_production
 	cost = 2
 	relative_position_id = aggressive_industry_focus
-	x = 4
+	x = 5
 	y = 1
 	prerequisite = {
 		focus = buildup_industry_focus
@@ -522,6 +531,10 @@ shared_focus = {
 		NOT = {
 			has_completed_focus = labour_2
 		}
+		OR = {
+			has_completed_focus = production_1
+			has_completed_focus = labour_1
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = production_tt
@@ -546,6 +559,10 @@ shared_focus = {
 		NOT = {
 			has_completed_focus = labour_3
 		}
+		OR = {
+			has_completed_focus = production_2
+			has_completed_focus = labour_2
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = production_tt
@@ -562,7 +579,7 @@ shared_focus = {
 	icon = GFX_focus_generic_industry_3
 	cost = 2
 	relative_position_id = shared_ind_start
-	x = 2
+	x = 3
 	y = 1
 	prerequisite = {
 		focus = shared_ind_start
@@ -613,7 +630,7 @@ shared_focus = {
 	icon = GFX_focus_generic_industry_3
 	cost = 2
 	relative_position_id = buildup_industry_focus
-	x = 2
+	x = 1
 	y = 1
 	prerequisite = {
 		focus = buildup_industry_focus
@@ -743,8 +760,12 @@ shared_focus = {
 	y = 1
 	prerequisite = {
 		focus = labour_3
-		focus = balanced_3
 		focus = production_3
+	}
+	prerequisite = {
+		focus = aggro_industry_3
+		focus = balanced_3
+		focus = buildup_industry_3
 	}
 	completion_reward = { 
 		add_research_slot = 1
