@@ -119,7 +119,7 @@ add_equipment_to_stockpile = {
 	amount = 500
 }
 army_experience = 300
-air_experience = 50
+air_experience = 300
 set_research_slots = 3
 create_corps_commander = {
 	name = "Claude Auchinleck"
