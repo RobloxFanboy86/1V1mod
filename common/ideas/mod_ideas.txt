@@ -128,5 +128,11 @@ ideas = {
 				}
 			}
 		}
+
+		mod_boost_production_efficiency = {
+			modifier = {
+				production_factory_efficiency_gain_factor = 2
+			}
+		}
 	}
 }
