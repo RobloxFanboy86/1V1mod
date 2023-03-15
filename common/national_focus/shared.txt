@@ -740,6 +740,7 @@ shared_focus = {
 		focus = buildup_industry_2
 	}
 	completion_reward = {
+		log = "sus"
 		add_to_variable = {buildup_efficiency_gain = 0.1}
 		custom_effect_tooltip = buildup_tt
 		if = {
