@@ -124,15 +124,5 @@ guiTypes = {
 			maxHeight = 23
 			format = left
 		}
-
-		instantTextboxType = {
-			name = "morale_calc"
-			position = { x=38 y=165 }
-			font = "hoi_18mbs"
-			text = "[?morale_calc]"
-			maxWidth = 340
-			maxHeight = 23
-			format = center
-		}
 	}
 }

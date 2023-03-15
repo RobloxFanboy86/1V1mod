@@ -45,6 +45,32 @@ oob="EAST_STARTING"
 
 add_manpower = 1000000
 
+recruit_character = EST_Lazar_Kaganovich
+recruit_character = EST_J_von_Ribbentrop
+recruit_character = EST_Victor_Perlo
+recruit_character = EST_Henry_Stimson
+recruit_character = EST_Fritz_Todt
+recruit_character = EST_Georgy_Zhukov
+recruit_character = EST_Tomoyuki_Yamashita
+recruit_character = EST_Heinz_Guderian
+recruit_character = EST_Ernst_Udet
+recruit_character = EST_Arthur_Harris
+recruit_character = EST_Wernher_von_Braun
+recruit_character = EST_Robert_Oppenheimer
+recruit_character = EST_Franz_Halder
+recruit_character = EST_Hajime_Sugiyama
+recruit_character = EST_Alan_Brooke
+recruit_character = EST_Ludwig_Beck
+recruit_character = EST_Hermann_Goring
+recruit_character = EST_Henry_Arnold
+recruit_character = EST_Charles_Portal
+recruit_character = EST_Tateo_Kato
+recruit_character = EST_Erwin_Rommel
+recruit_character = EST_Claude_Aukinleck
+recruit_character = EST_Ivan_Konev
+recruit_character = EST_Kimmy_Doolittle
+recruit_character = EST_Trafford_Leigh_Mallory
+
 set_politics = {
 	ruling_party = neutrality
 	elections_allowed = no
@@ -55,9 +81,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Kommy Tay"
+	name = "Leader East"
 	desc = ""
-	picture = "Tommykayeast.dds"
+	picture = "leader_unknown.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {}
@@ -138,171 +164,6 @@ add_equipment_to_stockpile = {
 army_experience = 300
 air_experience = 300
 set_research_slots = 3
-create_corps_commander = {
-	name = "Claude Auchinleck"
-	picture = "Portrait_Britain_Claude_Auchinleck"
-	traits = { inflexible_strategist career_officer }
-	skill = 5
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 3
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "William Slim"
-	picture = "Portrait_Britain_William_Slim.dds"
-	traits={ war_hero trickster }
-			skill=5
-			attack_skill=3
-			defense_skill=3
-			planning_skill=5
-			logistics_skill=5
-			
-}
-create_corps_commander = {
-	name = "Bernard Montgomery"
-	picture = "Portrait_Britain_Bernard_Montgomery.dds"
-	traits={ inflexible_strategist trait_cautious media_personality organizer logistics_wizard offensive_doctrine }
-			skill=4
-			attack_skill=2
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=4
-			
-}
-create_corps_commander = {
-	name = "Heinz Guderian"
-	picture = "Portrait_Germany_Heinz_Guderian.dds"
-	traits={ brilliant_strategist career_officer armor_officer trickster panzer_leader }
-			skill=4
-			attack_skill=2
-			defense_skill=4
-			planning_skill=4
-			logistics_skill=3
-			
-}
-
-create_corps_commander = {
-	name = "Erwin Rommel"
-	picture = "Portrait_Germany_Erwin_Rommel.dds"
-	traits={ trait_reckless media_personality armor_officer war_hero trickster }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
-			
-}
-create_corps_commander = {
-	name = "Erich von Manstein"
-	picture = "Portrait_Germany_Erich_von_Manstein.dds"
-	traits={ brilliant_strategist armor_officer trickster trait_engineer }
-			skill=4
-			attack_skill=2
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=4
-			
-}
-create_corps_commander = {
-	name = "Georgy Zhukov"
-	picture = "Portrait_Soviet_Gregory_Zhukov.dds"
-	traits = { media_personality armor_officer war_hero winter_specialist }
-			skill = 5
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 5
-			
-}
-create_corps_commander = {
-	name = "Ivan Konev"
-	picture = "Portrait_Soviet_Ivan_Konev.dds"
-	traits = { harsh_leader armor_officer politically_connected }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 5
-			planning_skill = 2
-			logistics_skill = 5
-			
-}
-create_corps_commander = {
-	name = "Mikhail Tukhachevsky"
-	picture = "Portrait_Soviet_Mikhail_Tukhachevsky.dds"
-	traits = { brilliant_strategist career_officer trait_reckless infantry_officer offensive_doctrine }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 2
-			
-}
-create_corps_commander = {
-	name = "Tomoyuki Yamashita"
-	picture = "Portrait_Japan_Tomoyuki_Yamashita.dds"
-	traits={ brilliant_strategist politically_connected trickster trait_engineer }
-			skill=5
-			attack_skill=4
-			defense_skill=5
-			planning_skill=3
-			logistics_skill=4
-			
-}
-create_corps_commander = {
-	name = "Shizuichi Tanaka"
-	picture = "Portrait_Japan_Shizuichi_Tanaka.dds"
-	traits={ career_officer infantry_officer trickster }
-			skill=4
-			attack_skill=4
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=4
-			
-}
-create_corps_commander = {
-	name = "Hisaichi Terauchi"
-	picture = "Portrait_Japan_Hisaichi_Terauchi.dds"
-	traits={ politically_connected offensive_doctrine }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=2
-			
-}
-create_corps_commander = {
-	name = "Dwight D. Eisenhower"
-	picture = "Portrait_USA_Dwight_D_Eisenhower.dds"
-	traits={ trait_cautious armor_officer politically_connected organizer logistics_wizard offensive_doctrine }
-			skill=5
-			attack_skill=3
-			defense_skill=3
-			planning_skill=5
-			logistics_skill=5
-			
-}
-create_corps_commander = {
-	name = "George S. Patton"
-	picture = "Portrait_USA_George_S_Patton.dds"
-	traits={ trait_reckless armor_officer war_hero trickster panzer_leader }
-			skill=5
-			attack_skill=7
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=4
-			
-}
-create_corps_commander = {
-	name = "Douglas MacArthur"
-	picture = "Portrait_USA_Douglas_Macarthur.dds"
-	traits={ brilliant_strategist career_officer media_personality politically_connected offensive_doctrine }
-			skill=4
-			attack_skill=4
-			defense_skill=3
-			planning_skill=4
-			logistics_skill=2
-			
-}
 set_variable = {
     var = morale_east
     value = 100
@@ -318,8 +179,4 @@ set_variable = {
 set_variable = {
     var = points_west
     value = 20
-}
-set_variable = {
-	var = morale_calc
-	value = 0
 }
