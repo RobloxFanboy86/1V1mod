@@ -7695,5 +7695,37 @@ leader_traits = {
 		}
 	}
 
-
+	advisor_lazar = {
+		equipment_bonus = {
+			train_equipment = {
+				instant = yes
+				build_cost_ic = -0.05
+			}
+		}
+		equipment_bonus = {
+			railway_gun_equipment = {
+				instant = yes
+				build_cost_ic = -0.05
+				reliability = 0.15
+			}
+		}
+		fuel_gain_factor = 0.05
+		production_speed_supply_node_factor = 0.05
+		production_speed_rail_way_factor = 0.05
+	}
+	advisor_ribbentrop = {
+		subversive_activites_upkeep = -0.25
+	}
+	advisor_victor = {
+		production_factory_max_efficiency_factor = 0.05
+	}
+	advisor_henry = {
+		production_speed_arms_factory_factor = 0.10
+		production_speed_naval_base_factor = 0.10
+		production_speed_fuel_silo_factor = 0.10
+	}
+	advisor_fritz = {
+		production_speed_anti_air_building_factor = 0.20
+		production_speed_bunker_factor = 0.20
+	}
 }
