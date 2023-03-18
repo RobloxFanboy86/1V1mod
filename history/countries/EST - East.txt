@@ -163,6 +163,7 @@ add_equipment_to_stockpile = {
 }
 army_experience = 300
 air_experience = 300
+add_command_power = 20
 set_research_slots = 3
 set_variable = {
     var = morale_east

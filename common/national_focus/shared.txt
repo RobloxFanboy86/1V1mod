@@ -1157,7 +1157,7 @@ shared_focus = {
 	completion_reward = { 
 		add_timed_idea = {
 			idea = build_forts
-			days = 60
+			days = 120
 		}
 	}
 }
@@ -1174,7 +1174,7 @@ shared_focus = {
 	completion_reward = { 
 		add_timed_idea = {
 			idea = logi_drive
-			days = 60
+			days = 120
 		}
 	}
 }
@@ -1322,6 +1322,28 @@ shared_focus = {
 	}
 	completion_reward = { 
 		add_ideas = air_defence_idea
+		if = {
+			limit = {
+				TAG = EST
+			}
+			16 = {
+				add_building_construction = {
+					type = radar_station
+					level = 2
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				TAG = WST
+			}
+			6 = {
+				add_building_construction = {
+					type = radar_station
+					level = 2
+				}
+			}
+		}
 	}
 }
 shared_focus = {
