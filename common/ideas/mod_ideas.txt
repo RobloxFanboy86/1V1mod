@@ -102,6 +102,10 @@ ideas = {
 					build_cost_ic = -0.5
 				}
 			}
+			modifier = {
+				production_speed_supply_node_factor = 0.75
+				production_speed_rail_way_factor = 0.75
+			}
 		}
 		air_defence_idea = {
 			picture = generic_aircraft_support
