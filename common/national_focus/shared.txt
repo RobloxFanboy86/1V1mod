@@ -321,7 +321,7 @@ shared_focus = {
 				TAG = EST
 			}
 			16 = {
-				add_extra_state_shared_building_slots = 12
+				add_extra_state_shared_building_slots = 7
 				add_building_construction = {
     				type = arms_factory
    					level = 2
@@ -329,7 +329,7 @@ shared_focus = {
 				}
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 5
     				instant_build = yes
 				}
 			}
@@ -340,10 +340,10 @@ shared_focus = {
 				TAG = WST
 			}
 			6 = {
-				add_extra_state_shared_building_slots = 12
+				add_extra_state_shared_building_slots = 7
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 5
     				instant_build = yes
 				}
 				add_building_construction = {
@@ -373,7 +373,7 @@ shared_focus = {
 				TAG = EST
 			}
 			13 = {
-				add_extra_state_shared_building_slots = 12
+				add_extra_state_shared_building_slots = 7
 				add_building_construction = {
     				type = arms_factory
    					level = 2
@@ -381,7 +381,7 @@ shared_focus = {
 				}
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 5
     				instant_build = yes
 				}
 			}
@@ -392,10 +392,10 @@ shared_focus = {
 				TAG = WST
 			}
 			3 = {
-				add_extra_state_shared_building_slots = 12
+				add_extra_state_shared_building_slots = 7
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 5
     				instant_build = yes
 				}
 				add_building_construction = {
@@ -425,7 +425,7 @@ shared_focus = {
 				TAG = EST
 			}
 			20 = {
-				add_extra_state_shared_building_slots = 12
+				add_extra_state_shared_building_slots = 7
 				add_building_construction = {
     				type = arms_factory
    					level = 2
@@ -433,7 +433,7 @@ shared_focus = {
 				}
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 5
     				instant_build = yes
 				}
 			}
@@ -444,10 +444,10 @@ shared_focus = {
 				TAG = WST
 			}
 			10 = {
-				add_extra_state_shared_building_slots = 12
+				add_extra_state_shared_building_slots = 7
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 5
     				instant_build = yes
 				}
 				add_building_construction = {
@@ -477,7 +477,7 @@ shared_focus = {
 				TAG = EST
 			}
 			18 = {
-				add_extra_state_shared_building_slots = 12
+				add_extra_state_shared_building_slots = 7
 				add_building_construction = {
     				type = arms_factory
    					level = 2
@@ -485,7 +485,7 @@ shared_focus = {
 				}
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 5
     				instant_build = yes
 				}
 			}
@@ -496,10 +496,10 @@ shared_focus = {
 				TAG = WST
 			}
 			8 = {
-				add_extra_state_shared_building_slots = 12
+				add_extra_state_shared_building_slots = 7
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 5
     				instant_build = yes
 				}
 				add_building_construction = {
@@ -621,10 +621,10 @@ shared_focus = {
 				TAG = EST
 			}
 			16 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 10
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 10
     				instant_build = yes
 				}
 			}
@@ -635,10 +635,10 @@ shared_focus = {
 				TAG = WST
 			}
 			6 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 10
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 10
     				instant_build = yes
 				}
 			}
@@ -663,10 +663,10 @@ shared_focus = {
 				TAG = EST
 			}
 			13 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 10
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 10
     				instant_build = yes
 				}
 			}
@@ -677,10 +677,10 @@ shared_focus = {
 				TAG = WST
 			}
 			3 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 10
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 10
     				instant_build = yes
 				}
 			}
@@ -705,10 +705,10 @@ shared_focus = {
 				TAG = EST
 			}
 			20 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 10
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 10
     				instant_build = yes
 				}
 			}
@@ -719,10 +719,10 @@ shared_focus = {
 				TAG = WST
 			}
 			10 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 10
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 10
     				instant_build = yes
 				}
 			}
@@ -747,10 +747,10 @@ shared_focus = {
 				TAG = EST
 			}
 			18 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 10
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 10
     				instant_build = yes
 				}
 			}
@@ -761,10 +761,10 @@ shared_focus = {
 				TAG = WST
 			}
 			8 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 10
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 10
     				instant_build = yes
 				}
 			}
