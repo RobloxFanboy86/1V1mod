@@ -6,6 +6,36 @@ on_actions = {
 					FROM.FROM = {
 						OR = {
 							state = 1
+							state = 3
+							state = 5
+							state = 6
+							state = 8
+							state = 9
+							state = 10
+							state = 22
+							state = 11
+							state = 13
+							state = 15
+							state = 16
+							state = 18
+							state = 19
+							state = 20
+							state = 21
+						}
+					}
+				}
+				ROOT = {
+					scoped_sound_effect = "point_taken"
+				}
+				FROM = {
+					scoped_sound_effect = "point_lost"	
+				}
+			}
+			if = {
+				limit = {
+					FROM.FROM = {
+						OR = {
+							state = 1
 							state = 22
 							state = 9
 							state = 10
@@ -16,6 +46,7 @@ on_actions = {
 						}
 					}
 				}
+				
 				if = {
 					limit = {
 						tag = WST
