@@ -45,6 +45,40 @@ oob="WEST_STARTING"
 
 add_manpower = 1000000
 
+recruit_character = WST_Lazar_Kaganovich
+recruit_character = WST_J_von_Ribbentrop
+recruit_character = WST_Victor_Perlo
+recruit_character = WST_Henry_Stimson
+recruit_character = WST_Fritz_Todt
+recruit_character = WST_Georgy_Zhukov
+recruit_character = WST_Tomoyuki_Yamashita
+recruit_character = WST_Heinz_Guderian
+recruit_character = WST_Ernst_Udet
+recruit_character = WST_Arthur_Harris
+recruit_character = WST_Wernher_von_Braun
+recruit_character = WST_Robert_Oppenheimer
+recruit_character = WST_Franz_Halder
+recruit_character = WST_Hajime_Sugiyama
+recruit_character = WST_Alan_Brooke
+recruit_character = WST_Ludwig_Beck
+recruit_character = WST_Hermann_Goring
+recruit_character = WST_Henry_Arnold
+recruit_character = WST_Charles_Portal
+recruit_character = WST_Tateo_Kato
+recruit_character = WST_Erwin_Rommel
+recruit_character = WST_Claude_Aukinleck
+recruit_character = WST_Ivan_Konev
+recruit_character = WST_Kimmy_Doolittle
+recruit_character = WST_Trafford_Leigh_Mallory
+recruit_character = WST_Dwight_D_Eisenhower
+recruit_character = WST_George_S_Patton
+recruit_character = WST_Bernard_Montgomery
+recruit_character = WST_Archibald_Wavell
+recruit_character = WST_Erich_von_Manstein
+recruit_character = WST_Shizuichi_Tanaka
+recruit_character = WST_Konstantin_Rokossovsky
+
+
 set_politics = {
 	ruling_party = neutrality
 	elections_allowed = no

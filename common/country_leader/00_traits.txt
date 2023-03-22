@@ -10,9 +10,318 @@
 @chief_experience_gain_medium = 0.30
 @chief_experience_gain_high = 0.40
 
-###Todo remove commented advisor experience gains
-
 leader_traits = {
+
+	######################
+	### ADVISOR TRAITS ###
+	######################
+
+	advisor_lazar = {
+		sprite = 6
+		equipment_bonus = {
+			train_equipment = {
+				instant = yes
+				build_cost_ic = -0.05
+			}
+			railway_gun_equipment = {
+				instant = yes
+				build_cost_ic = -0.05
+				reliability = 0.15
+			}
+		}
+		fuel_gain_factor = 0.05
+		production_speed_supply_node_factor = 0.05
+		production_speed_rail_way_factor = 0.05
+	}
+	advisor_ribbentrop = {
+		sprite = 15
+		subversive_activites_upkeep = -0.25
+	}
+	advisor_victor = {
+		sprite = 10
+		production_factory_max_efficiency_factor = 0.05
+	}
+	advisor_henry = {
+		sprite = 10
+		production_speed_arms_factory_factor = 0.10
+		production_speed_naval_base_factor = 0.10
+		production_speed_fuel_silo_factor = 0.10
+	}
+	advisor_fritz = {
+		sprite = 9
+		production_speed_anti_air_building_factor = 0.20
+		production_speed_bunker_factor = 0.20
+	}
+
+	#######################
+	### THEORIST TRAITS ###
+	#######################
+
+	theorist_zhukov = {
+		sprite = 14
+		cat_mass_assault_cost_factor = -0.15
+	}
+	theorist_tomoyuki = {
+		sprite = 14
+		cat_grand_battle_plan_cost_factor = -0.15
+	}
+	theorist_heinz = {
+		sprite = 8
+		cat_mobile_warfare_cost_factor = -0.15
+		equipment_bonus = {
+			armor = {
+				instant = yes
+				maximum_speed = 0.10
+			}
+		}
+	}
+	theorist_ernst = {
+		sprite = 1
+		air_doctrine_cost_factor = -0.1
+		equipment_bonus = {
+			cas = {
+				instant = yes
+				air_ground_attack = 0.10
+			}
+		}
+	}
+	theorist_arthur = {
+		sprite = 1
+		cat_strategic_destruction_cost_factor = -0.15
+		air_strategic_bomber_bombing_factor = 0.1
+	}
+	theorist_wernher = {
+		sprite = 14
+	}
+	theorist_oppenheimer = {
+		sprite = 14
+	}
+
+	####################
+	### CHIEF TRAITS ###
+	####################
+
+	army_chief_franz = {
+		sprite = 7
+		experience_gain_army = 0.4
+		army_attack_factor = 0.1
+	}
+	army_chief_hajime = {
+		sprite = 5
+		experience_gain_army = 0.5
+		training_time_factor = -0.25
+	}
+	army_chief_alan = {
+		sprite = 5
+		experience_gain_army = 0.4
+		army_speed_factor = 0.15
+	}
+	army_chief_ludwig = {
+		sprite = 5
+		experience_gain_army = 0.4
+		army_org_factor = 0.08
+	}
+	air_chief_goring = {
+		sprite = 1
+		experience_gain_air = 0.4
+		army_bonus_air_superiority_factor = 0.1
+	}
+	air_chief_arnold = {
+		sprite = 1
+		experience_gain_air = 0.4
+		experience_gain_air_factor = 0.15
+	}
+	air_chief_charles = {
+		sprite = 1
+		experience_gain_air = 0.5
+		air_night_penalty = -0.2
+	}
+	air_chief_tateo = {
+		sprite = 1
+		experience_gain_air = 0.5
+		air_ace_generation_chance_factor = 0.15
+	}
+
+	###########################
+	### HIGH COMMAND TRAITS ###
+	###########################
+
+	high_command_rommel = {
+		sprite = 8
+		army_armor_attack_factor = 0.15
+		army_armor_defence_factor = 0.15
+	}
+	high_command_claude = {
+		sprite = 6
+		attrition = -0.08
+	}
+	high_command_ivan = {
+		sprite = 1
+		enemy_army_bonus_air_superiority_factor = -0.1
+	}
+	high_command_kimmy = {
+		sprite = 1
+		air_strategic_bomber_bombing_factor = 0.05
+		air_strategic_bomber_attack_factor = 0.02
+		air_strategic_bomber_defence_factor = 0.02
+		air_strategic_bomber_agility_factor = 0.02
+	}
+	high_command_trafford = {
+		sprite = 1
+		air_interception_attack_factor = 0.03
+		air_interception_defence_factor = 0.03
+		air_interception_agility_factor = 0.03
+	}
+
+	#####################
+	### TANK DESIGNER ###
+	#####################
+
+	mytishchy_machine_building_plant_trait = {
+		equipment_capture_factor = 0.15
+		equipment_conversion_speed = 0.15
+		land_equipment_upgrade_xp_cost = -0.1
+	}
+	detroit_arsenal_trait = {
+		equipment_bonus = {
+			light_tank_chassis = {
+				instant = yes
+				build_cost_ic = -0.1
+			}
+			medium_tank_chassis = {
+				instant = yes
+				build_cost_ic = -0.1
+			}
+		}
+	}
+	tank_destroyer_board_trait = {
+		equipment_bonus = {
+			light_tank_destroyer_chassis = {
+				instant = yes
+				build_cost_ic = -0.1
+				ap_attack = 0.1
+				hard_attack = 0.25
+			}
+			medium_tank_destroyer_chassis = {
+				instant = yes
+				build_cost_ic = -0.1
+				ap_attack = 0.1
+				hard_attack = 0.25
+			}
+			heavy_tank_destroyer_chassis = {
+				instant = yes
+				build_cost_ic = -0.1
+				ap_attack = 0.1
+				hard_attack = 0.25
+			}
+		}
+	}
+
+	#########################
+	### AIRCRAFT DESIGNER ###
+	#########################
+
+	ilyushin_design_bureau_trait = {
+		equipment_bonus = {
+			cas = {
+				instant = yes
+				armor_value = 0.25
+			}
+		}
+	}
+	mitsubishi_trait = {
+		equipment_bonus = {
+			fighter = {
+				instant = yes
+				air_agility = 0.15
+				maximum_speed = 0.1
+			}
+		}
+	}
+	avro_trait = {
+		air_strategic_bomber_night_penalty = -0.75
+		equipment_bonus = {
+			tactical_bomber = {
+				instant = yes
+				build_cost_ic = -0.25
+			}
+		}
+	}
+	boeing_trait = {
+		equipment_bonus = {
+			tactical_bomber = {
+				instant = yes
+				build_cost_ic = -0.25
+				air_attack = 0.25
+			}
+		}
+	}
+	junkers_trait = {
+		ground_attack_factor = 0.1
+		equipment_bonus = {
+			cas = {
+				instant = yes
+				reliability = 0.1
+			}
+		}
+	}
+	heinkel_trait = {
+		air_strategic_bomber_bombing_factor = 0.1
+	}
+
+	#########################
+	### MATERIAL DESIGNER ###
+	#########################
+
+	ford_motor_company_trait = {
+		equipment_bonus = {
+			motorized_equipment = {
+				instant = yes
+				build_cost_ic = -0.2
+			}
+		}
+	}
+	rsaf_enfield_trait = {
+		equipment_bonus = {
+			infantry_equipment = {
+				instant = yes
+				build_cost_ic = -0.1
+			}
+		}
+	}
+	rheinmetall_trait = {
+		equipment_bonus = {
+			artillery_equipment = {
+				instant = yes
+				build_cost_ic = -0.1
+			}
+			anti_tank_equipment = {
+				instant = yes
+				build_cost_ic = -0.1
+			}
+			anti_air_equipment = {
+				instant = yes
+				build_cost_ic = -0.1
+			}
+		}
+	}
+
+	###########################
+	### INDUSTRIAL DESIGNER ###
+	###########################
+
+	stalingrad_tractor_factory_trait = {
+		equipment_bonus = {
+			armor = {
+				instant = yes
+				build_cost_ic = -0.2
+			}
+		}
+	}
+
+	#####################
+	#####################
+	#####################
 
 	dictator = {
 		random = no
@@ -7693,39 +8002,5 @@ leader_traits = {
 				has_navy_size = { unit = carrier size < 1 }
 			}
 		}
-	}
-
-	advisor_lazar = {
-		equipment_bonus = {
-			train_equipment = {
-				instant = yes
-				build_cost_ic = -0.05
-			}
-		}
-		equipment_bonus = {
-			railway_gun_equipment = {
-				instant = yes
-				build_cost_ic = -0.05
-				reliability = 0.15
-			}
-		}
-		fuel_gain_factor = 0.05
-		production_speed_supply_node_factor = 0.05
-		production_speed_rail_way_factor = 0.05
-	}
-	advisor_ribbentrop = {
-		subversive_activites_upkeep = -0.25
-	}
-	advisor_victor = {
-		production_factory_max_efficiency_factor = 0.05
-	}
-	advisor_henry = {
-		production_speed_arms_factory_factor = 0.10
-		production_speed_naval_base_factor = 0.10
-		production_speed_fuel_silo_factor = 0.10
-	}
-	advisor_fritz = {
-		production_speed_anti_air_building_factor = 0.20
-		production_speed_bunker_factor = 0.20
 	}
 }

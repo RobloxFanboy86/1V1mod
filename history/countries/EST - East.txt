@@ -70,6 +70,13 @@ recruit_character = EST_Claude_Aukinleck
 recruit_character = EST_Ivan_Konev
 recruit_character = EST_Kimmy_Doolittle
 recruit_character = EST_Trafford_Leigh_Mallory
+recruit_character = EST_Dwight_D_Eisenhower
+recruit_character = EST_George_S_Patton
+recruit_character = EST_Bernard_Montgomery
+recruit_character = EST_Archibald_Wavell
+recruit_character = EST_Erich_von_Manstein
+recruit_character = EST_Shizuichi_Tanaka
+recruit_character = EST_Konstantin_Rokossovsky
 
 set_politics = {
 	ruling_party = neutrality

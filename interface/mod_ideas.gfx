@@ -1,0 +1,155 @@
+spriteTypes = {	
+	
+	spriteType = {
+		name = "GFX_idea_alan_brooke"
+		texturefile = "gfx/interface/ideas/idea_alan_brooke.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_arthur_harris"
+		texturefile = "gfx/interface/ideas/idea_arthur_harris.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_charles_portal"
+		texturefile = "gfx/interface/ideas/idea_charles_portal.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_claude_auchinleck"
+		texturefile = "gfx/interface/ideas/idea_claude_auchinleck.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ernst_udet"
+		texturefile = "gfx/interface/ideas/idea_ernst_udet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_erwin_rommel"
+		texturefile = "gfx/interface/ideas/idea_erwin_rommel.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_franz_halder"
+		texturefile = "gfx/interface/ideas/idea_franz_halder.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_georgy_zhukov"
+		texturefile = "gfx/interface/ideas/idea_georgy_zhukov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hajime_sugiyama"
+		texturefile = "gfx/interface/ideas/idea_hajime_sugiyama.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_heinz_guderian"
+		texturefile = "gfx/interface/ideas/idea_heinz_guderian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_henry_arnold"
+		texturefile = "gfx/interface/ideas/idea_henry_arnold.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hermann_goring"
+		texturefile = "gfx/interface/ideas/idea_hermann_goring.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ivan_konev"
+		texturefile = "gfx/interface/ideas/idea_ivan_konev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jimmy_doolittle"
+		texturefile = "gfx/interface/ideas/idea_jimmy_doolittle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_joachim_von_ribbentrop"
+		texturefile = "gfx/interface/ideas/idea_joachim_von_ribbentrop.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lazar_kaganovich"
+		texturefile = "gfx/interface/ideas/idea_lazar_kaganovich.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ludwig_beck"
+		texturefile = "gfx/interface/ideas/idea_ludwig_beck.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_robert_oppenheimer"
+		texturefile = "gfx/interface/ideas/idea_robert_oppenheimer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tateo_kato"
+		texturefile = "gfx/interface/ideas/idea_tateo_kato.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fritz_todt"
+		texturefile = "gfx/interface/ideas/idea_fritz_todt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tomoyuki_yamashita"
+		texturefile = "gfx/interface/ideas/idea_tomoyuki_yamashita.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trafford_leigh_mallory"
+		texturefile = "gfx/interface/ideas/idea_trafford_leigh_mallory.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wernher_von_braun"
+		texturefile = "gfx/interface/ideas/idea_wernher_von_braun.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GENERIC_henry_stimson"
+		texturefile = "gfx/interface/ideas/idea_GENERIC_henry_stimson.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GENERIC_victor_perlo"
+		texturefile = "gfx/interface/ideas/idea_GENERIC_victor_perlo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tank_destroyer_board"
+		texturefile = "gfx/interface/ideas/idea_tank_destroyer_board.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_stalingrad_tractor_factory"
+		texturefile = "gfx/interface/ideas/idea_stalingrad_tractor_factory.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rsaf_enfield"
+		texturefile = "gfx/interface/ideas/idea_rsaf_enfield.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rheinmetall"
+		texturefile = "gfx/interface/ideas/idea_rheinmetall.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mytishchy_machine_building_plant"
+		texturefile = "gfx/interface/ideas/idea_mytishchy_machine_building_plant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mitsubishi"
+		texturefile = "gfx/interface/ideas/idea_mitsubishi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_junkers"
+		texturefile = "gfx/interface/ideas/idea_junkers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ilyushin_design_bureau"
+		texturefile = "gfx/interface/ideas/idea_ilyushin_design_bureau.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_heinkel"
+		texturefile = "gfx/interface/ideas/idea_heinkel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_avro"
+		texturefile = "gfx/interface/ideas/idea_avro.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_boeing"
+		texturefile = "gfx/interface/ideas/idea_boeing.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ford_motor_company"
+		texturefile = "gfx/interface/ideas/idea_ford_motor_company.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GENERIC_detroit_arsenal"
+		texturefile = "gfx/interface/ideas/idea_GENERIC_detroit_arsenal.dds"
+	}
+}
