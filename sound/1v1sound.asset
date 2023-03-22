@@ -1,0 +1,28 @@
+sound = {
+	name = "capture_point_lost"
+	file = "sounds/point_lost.wav"
+}
+
+sound = {
+	name = "capture_point_taken"
+	file = "sounds/point_taken.wav"
+}
+
+
+soundeffect = 
+{
+	name = "point_lost"
+	volume = 1.2
+	sounds = { 
+		sound = capture_point_lost
+	}
+}
+
+soundeffect = 
+{
+	name = "point_taken"
+	volume = 1.2
+	sounds = { 
+		sound = capture_point_taken
+	}
+}
