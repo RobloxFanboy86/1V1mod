@@ -3,9 +3,9 @@ state={
 	name="STATE_12"
 
 	resources = {
-		steel = 1
-		aluminium = 1 
-		tungsten = 1
+		#steel = 1
+		#aluminium = 1 
+		#tungsten = 1
 		chromium = 1
 	}
 
