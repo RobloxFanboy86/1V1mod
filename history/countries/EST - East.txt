@@ -174,7 +174,7 @@ add_command_power = 20
 set_research_slots = 3
 set_variable = {
     var = morale_east
-    value = 100
+    value = 1750
 }
 set_variable = {
     var = points_east
@@ -182,7 +182,7 @@ set_variable = {
 }
 set_variable = {
     var = morale_west
-    value = 100
+    value = 1750
 }
 set_variable = {
     var = points_west

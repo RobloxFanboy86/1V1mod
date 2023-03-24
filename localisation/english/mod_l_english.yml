@@ -20,8 +20,8 @@
  mod_boost_production_efficiency:0 "Production boost - 20 days"
 
  mod_explanation_title:0 "§HHow it works§"
- mod_explanation_text_1:0 "If you have less than 20 city points you will lose points for every city point you have lost. This triggers every third day."
- mod_explanation_text_2:0 "For example if you have 17 city points you will lose 3 point every third day."
+ mod_explanation_text_1:0 "If you have less than 20 city points you will lose points for every city point you have lost. This triggers every day."
+ mod_explanation_text_2:0 "For example if you have 17 city points you will lose 3 point every day."
 
  aggressive_industry:0 "Aggressive Industry"
  flexible_industry:0 "Flexible Industry"

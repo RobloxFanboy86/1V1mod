@@ -284,14 +284,9 @@ on_actions = {
 	}
 	on_daily = {
 		effect = {
-			add_to_variable = {
-				var = temp_days
-				value = 1
-			}
 			if = {
 				limit = {
 					check_variable = { points_west < 20 }
-					check_variable = { temp_days > 2}
 				}
 				set_temp_variable = { point_temp = 20 }
 				subtract_from_temp_variable = { point_temp = points_west }
@@ -302,17 +297,12 @@ on_actions = {
 				clamp_variable = {
 					var = morale_west
 					min = 0
-					max = 100
-				}
-				subtract_from_variable = {
-					var = temp_days
-					value = temp_days
+					max = 1750
 				}
 			}
 			if = {
 				limit = {
 					check_variable = { points_east < 20 }
-					check_variable = { temp_days > 2}
 				}
 				set_temp_variable = { point_temp = 20 }
 				subtract_from_temp_variable = { point_temp = points_east }
@@ -329,11 +319,7 @@ on_actions = {
 				clamp_variable = {
 					var = morale_east
 					min = 0
-					max = 100
-				}
-				subtract_from_variable = {
-					var = temp_days
-					value = temp_days
+					max = 1750
 				}
 			}
 			if = {
@@ -347,7 +333,7 @@ on_actions = {
 			if = {
 				limit = {
 					check_variable = { morale_west = 0 }
-					check_variable = { temp_days = 1 }
+					
 				}
 				country_event = { id = victory.2 }
 				white_peace = WST
@@ -368,10 +354,6 @@ on_actions = {
 	}
 	on_startup = {
 		effect = {
-			set_variable = {
-				var = temp_days
-				value = 0
-			}
 		}
 	}
 }
