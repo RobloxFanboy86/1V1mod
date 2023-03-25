@@ -70,6 +70,13 @@ recruit_character = EST_Claude_Aukinleck
 recruit_character = EST_Ivan_Konev
 recruit_character = EST_Kimmy_Doolittle
 recruit_character = EST_Trafford_Leigh_Mallory
+recruit_character = EST_Dwight_D_Eisenhower
+recruit_character = EST_George_S_Patton
+recruit_character = EST_Bernard_Montgomery
+recruit_character = EST_Archibald_Wavell
+recruit_character = EST_Erich_von_Manstein
+recruit_character = EST_Shizuichi_Tanaka
+recruit_character = EST_Konstantin_Rokossovsky
 
 set_politics = {
 	ruling_party = neutrality
@@ -81,7 +88,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Leader East"
+	name = "Eamonn E. Easterly"
 	desc = ""
 	picture = "leader_unknown.dds"
 	expire = "1965.1.1"
@@ -163,10 +170,11 @@ add_equipment_to_stockpile = {
 }
 army_experience = 300
 air_experience = 300
+add_command_power = 20
 set_research_slots = 3
 set_variable = {
     var = morale_east
-    value = 100
+    value = 1750
 }
 set_variable = {
     var = points_east
@@ -174,7 +182,7 @@ set_variable = {
 }
 set_variable = {
     var = morale_west
-    value = 100
+    value = 1750
 }
 set_variable = {
     var = points_west

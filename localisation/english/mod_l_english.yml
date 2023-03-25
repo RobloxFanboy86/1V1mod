@@ -20,8 +20,8 @@
  mod_boost_production_efficiency:0 "Production boost - 20 days"
 
  mod_explanation_title:0 "§HHow it works§"
- mod_explanation_text_1:0 "If you have less than 20 city points you will lose points for every city point you have lost. This triggers every third day."
- mod_explanation_text_2:0 "For example if you have 17 city points you will lose 3 point every third day."
+ mod_explanation_text_1:0 "If you have less than 20 city points you will lose points for every city point you have lost. This triggers every day."
+ mod_explanation_text_2:0 "For example if you have 17 city points you will lose 3 point every day."
 
  aggressive_industry:0 "Aggressive Industry"
  flexible_industry:0 "Flexible Industry"
@@ -38,6 +38,68 @@
  tac_bomber_production:0 "Tactical Bomber Production"
  strat_bomber_production:0 "Strategic Bomber Production"
  air_defence_idea:0 "Air Defence"
+
+ #Advisor Traits
+ high_command_trafford:0 "Air - Interception"
+ high_command_kimmy:0 "Air - Bombing"
+ high_command_ivan:0 "Air - Support"
+ high_command_claude:0 "Army - Attrition"
+ high_command_rommel:0 "Army - Armor"
+
+ air_chief_tateo:0 "Ace Generation"
+ air_chief_charles:0 "Night Operation"
+ air_chief_arnold:0 "Experience"
+ air_chief_goring:0 "Superiority"
+
+ army_chief_alan:0 "Speed"
+ army_chief_hajime:0 "Training"
+ army_chief_franz:0 "Offensive"
+ army_chief_ludwig:0 "Organization"
+
+ theorist_oppenheimer:0 "Nuclear Research"
+ theorist_wernher:0 "Rocket Research"
+ theorist_arthur:0 "Strategic Destruction"
+ theorist_ernst:0 "Air Doctrine"
+ theorist_heinz:0 "Mobile Warfare"
+ theorist_tomoyuki:0 "Grand Battleplan"
+ theorist_zhukov:0 "Mass Assault"
+
+ advisor_fritz:0 "Construction"
+ advisor_henry:0 "Construction"
+ advisor_victor:0 "Production"
+ advisor_ribbentrop:0 "Intelligence"
+ advisor_lazar:0 "Logistics"
+
+ #Designers
+ mytishchy_machine_building_plant:0 "Mytishchy Machine Building Plant"
+ mytishchy_machine_building_plant_trait:0 "Equipment & Armor"
+ detroit_arsenal:0 "Detroit Arsenal"
+ detroit_arsenal_trait:0 "Light & Medium Tank"
+ tank_destroyer_board:0 "Tank Destroyer Board"
+ tank_destroyer_board_trait:0 "Tank Destroyer"
+
+ ilyushin_design_bureau:0 "Ilyushin Design Bureau"
+ ilyushin_design_bureau_trait:0 "CAS"
+ mitsubishi:0 "Mitsubishi"
+ mitsubishi_trait:0 "Fighter"
+ avro:0 "Avro"
+ avro_trait:0 "Strategic Bomber"
+ boeing:0 "Boeing"
+ boeing_trait:0 "Strategic Bomber"
+ junkers:0 "Junkers"
+ junkers_trait:0 "CAS"
+ heinkel:0 "Heinkel"
+ heinkel_trait:0 "Tactical Bomber"
+
+ ford_motor_company:0 "Ford Motor Company"
+ ford_motor_company_trait:0 "Truck Equipment"
+ rsaf_enfield:0 "RSAF Enfield"
+ rsaf_enfield_trait:0 "Infantry Equipment"
+ rheinmetall:0 "Rheinmetall"
+ rheinmetall_trait:0 "Artillery, Anti-Tank & Anti Air"
+
+ stalingrad_tractor_factory:0 "Stalingrad Tractor Company"
+ stalingrad_tractor_factory_trait:0 "Tank Production & Industry Research"
 
  #Tooltips
  this_focus_does_nothing:0 "§GThis focus does nothing and can be bypassed immediately.§!"

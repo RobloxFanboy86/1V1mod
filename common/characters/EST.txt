@@ -1,0 +1,523 @@
+characters = {
+	EST_Lazar_Kaganovich = {
+		name = "Lazar Kaganovich"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_lazar_kaganovich"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Lazar_Kaganovich
+			traits = { advisor_lazar }
+		}
+	}
+	EST_J_von_Ribbentrop = {
+		name = "J. von Ribbentrop"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_joachim_von_ribbentrop"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = J_von_Ribbentrop
+			traits = { advisor_ribbentrop }
+		}
+	}
+	EST_Victor_Perlo = {
+		name = "Victor Perlo"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_GENERIC_victor_perlo"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Victor_Perlo
+			traits = { advisor_victor }
+		}
+	}
+	EST_Henry_Stimson = {
+		name = "Henry Stimson"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_GENERIC_henry_stimson"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Henry_Stimson
+			traits = { advisor_henry }
+		}
+	}
+	EST_Fritz_Todt = {
+		name = "Fritz Todt"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_fritz_todt"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Fritz_Todt
+			traits = { advisor_fritz }
+		}
+	}
+	EST_Heinz_Guderian = {
+		name = "Heinz Guderian"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_heinz_guderian"
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = Heinz_Guderian
+			traits = { theorist_heinz }
+		}
+	}
+	EST_Ernst_Udet = {
+		name = "Ernst Udet"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ernst_udet"
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = air
+			idea_token = Ernst_Udet
+			traits = { theorist_ernst }
+		}
+	}
+	EST_Arthur_Harris = {
+		name = "Arthur Harris"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_arthur_harris"
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = air
+			idea_token = Arthur_Harris
+			traits = { theorist_arthur }
+		}
+	}
+	EST_Wernher_von_Braun = {
+		name = "Wernher von Braun"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_wernher_von_braun"
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = civilian
+			idea_token = Wernher_von_Braun
+			traits = { theorist_wernher }
+			research_bonus = {
+				rocketry = 0.15
+			}
+		}
+	}
+	EST_Robert_Oppenheimer = {
+		name = "Robert Oppenheimer"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_robert_oppenheimer"
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = civilian
+			idea_token = Robert_Oppenheimer
+			traits = { theorist_oppenheimer }
+			research_bonus = {
+				nuclear = 0.15
+			}
+		}
+	}
+	EST_Franz_Halder = {
+		name = "Franz Halder"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_franz_halder"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = Franz_Halder
+			traits = { army_chief_franz }
+		}
+	}
+	EST_Hajime_Sugiyama = {
+		name = "Hajime Sugiyama"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_hajime_sugiyama"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = Hajime_Sugiyama
+			traits = { army_chief_hajime }
+		}
+	}
+	EST_Alan_Brooke = {
+		name = "Alan Brooke"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_alan_brooke"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = Alan_Brooke
+			traits = { army_chief_alan }
+		}
+	}
+	EST_Ludwig_Beck = {
+		name = "Ludwig Beck"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ludwig_beck"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = Ludwig_Beck
+			traits = { army_chief_ludwig }
+		}
+	}
+	EST_Hermann_Goring = {
+		name = "Hermann Goring"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_hermann_goring"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = Hermann_Goring
+			traits = { air_chief_goring }
+		}
+	}
+	EST_Henry_Arnold = {
+		name = "Henry Arnold"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_henry_arnold"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = Henry_Arnold
+			traits = { air_chief_arnold }
+		}
+	}
+	EST_Charles_Portal = {
+		name = "Charles Portal"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_charles_portal"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = Charles_Portal
+			traits = { air_chief_charles }
+		}
+	}
+	EST_Tateo_Kato = {
+		name = "Tateo Kato"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_tateo_kato"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = Tateo_Kato
+			traits = { air_chief_tateo }
+		}
+	}
+	EST_Claude_Aukinleck = {
+		name = "Claude Aukinleck"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_claude_auchinleck"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = Claude_Aukinleck
+			traits = { high_command_claude }
+		}
+	}
+	EST_Ivan_Konev = {
+		name = "Ivan Konev"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ivan_konev"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = Ivan_Konev
+			traits = { high_command_ivan }
+		}
+	}
+	EST_Kimmy_Doolittle = {
+		name = "Kimmy Doolittle"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_jimmy_doolittle"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = Kimmy_Doolittle
+			traits = { high_command_kimmy }
+		}
+	}
+	EST_Trafford_Leigh_Mallory = {
+		name = "Trafford Leigh-Mallory"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_trafford_leigh_mallory"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = Trafford_Leigh_Mallory
+			traits = { high_command_trafford }
+		}
+	}
+	EST_Georgy_Zhukov = {
+		name = "Georgy Zhukov"
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "GFX_portrait_georgy_zhukov"
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = Georgy_Zhukov
+			traits = { theorist_zhukov }
+		}
+		corps_commander = {
+   			skill = 1
+   			attack_skill = 1
+   			defense_skill = 1
+   			planning_skill = 1
+			logistics_skill = 1
+			traits = {
+				cavalry_officer
+				urban_assault_specialist
+			}
+		}
+	}
+	EST_Tomoyuki_Yamashita = {
+		name = "Tomoyuki Yamashita"
+		portraits = {
+			army = {
+				small = "GFX_idea_tomoyuki_yamashita"
+				large = "GFX_portrait_tomoyuki_yamashita"
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = Tomoyuki_Yamashita
+			traits = { theorist_tomoyuki }
+		}
+		corps_commander = {
+   			skill = 1
+   			attack_skill = 1
+   			defense_skill = 1
+   			planning_skill = 1
+			logistics_skill = 1
+			traits = {
+				trickster
+				engineer_officer
+				jungle_rat
+			}
+		}
+	}
+	EST_Erwin_Rommel = {
+		name = "Erwin Rommel"
+		portraits = {
+			army = {
+				small = "GFX_idea_erwin_rommel"
+				large = "GFX_portrait_erwin_rommel"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = Erwin_Rommel
+			traits = { high_command_rommel }
+		}
+		corps_commander = {
+   			skill = 1
+   			attack_skill = 1
+   			defense_skill = 1
+   			planning_skill = 1
+			logistics_skill = 1
+			traits = {
+				trait_reckless
+				armor_officer
+				trickster
+				desert_fox
+			}
+		}
+	}
+	EST_Dwight_D_Eisenhower = {
+		name = "Dwight D. Eisenhower"
+		portraits = {
+			army = {
+				large = "GFX_portrait_dwight_d_eisenhower"
+			}
+		}
+		corps_commander = {
+   			skill = 1
+   			attack_skill = 1
+   			defense_skill = 1
+   			planning_skill = 1
+			logistics_skill = 1
+			traits = {
+				skilled_staffer
+				organizer
+				logistics_wizard
+				offensive_doctrine
+			}
+		}
+	}
+	EST_George_S_Patton = {
+		name = "George S. Patton"
+		portraits = {
+			army = {
+				large = "GFX_portrait_george_s_patton"
+			}
+		}
+		corps_commander = {
+   			skill = 1
+   			attack_skill = 1
+   			defense_skill = 1
+   			planning_skill = 1
+			logistics_skill = 1
+			traits = {
+				armor_officer
+				organizer
+			}
+		}
+	}
+	EST_Bernard_Montgomery = {
+		name = "Bernard Montgomery"
+		portraits = {
+			army = {
+				large = "GFX_portrait_bernard_montgomery"
+			}
+		}
+		corps_commander = {
+   			skill = 1
+   			attack_skill = 1
+   			defense_skill = 1
+   			planning_skill = 1
+			logistics_skill = 1
+			traits = {
+				trait_cautious
+				commando
+				paratrooper
+				thorough_planner
+				defensive_doctrine
+			}
+		}
+	}
+	EST_Archibald_Wavell = {
+		name = "Archibald Wavell"
+		portraits = {
+			army = {
+				large = "GFX_portrait_archibald_wavell"
+			}
+		}
+		corps_commander = {
+   			skill = 1
+   			attack_skill = 1
+   			defense_skill = 1
+   			planning_skill = 1
+			logistics_skill = 1
+			traits = {
+				infantry_officer
+				commando
+				desert_fox
+			}
+		}
+	}
+	EST_Erich_von_Manstein = {
+		name = "Erich von Manstein"
+		portraits = {
+			army = {
+				large = "GFX_portrait_erich_von_manstein"
+			}
+		}
+		corps_commander = {
+   			skill = 1
+   			attack_skill = 1
+   			defense_skill = 1
+   			planning_skill = 1
+			logistics_skill = 1
+			traits = {
+				cavalry_officer
+				organizer
+				unyielding_defender
+				offensive_doctrine
+				ranger
+			}
+		}
+	}
+	EST_Shizuichi_Tanaka = {
+		name = "Shizuichi Tanaka"
+		portraits = {
+			army = {
+				large = "GFX_portrait_shizuichi_tanaka"
+			}
+		}
+		corps_commander = {
+   			skill = 1
+   			attack_skill = 1
+   			defense_skill = 1
+   			planning_skill = 1
+			logistics_skill = 1
+			traits = {
+				infantry_officer
+				trait_mountaineer
+			}
+		}
+	}
+	EST_Konstantin_Rokossovsky = {
+		name = "Konstantin Rokossovsky"
+		portraits = {
+			army = {
+				large = "GFX_portrait_konstantin_rokossovsky"
+			}
+		}
+		corps_commander = {
+   			skill = 1
+   			attack_skill = 1
+   			defense_skill = 1
+   			planning_skill = 1
+			logistics_skill = 1
+			traits = {
+				armor_officer
+				aggressive_assaulter
+				organisational_leader
+				swamp_fox
+			}
+		}
+	}
+}

@@ -1,0 +1,214 @@
+ideas = {
+
+	#####################
+	### TANK DESIGNER ###
+	#####################
+
+    tank_manufacturer = {
+		designer = yes
+
+		mytishchy_machine_building_plant = {
+			picture = "mytishchy_machine_building_plant"
+
+			research_bonus = {
+				armor = 0.1
+			}
+			traits = {
+				mytishchy_machine_building_plant_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+		detroit_arsenal = {
+			picture = "GENERIC_detroit_arsenal"
+
+			traits = {
+				detroit_arsenal_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+		tank_destroyer_board = {
+			picture = "tank_destroyer_board"
+
+			traits = {
+				tank_destroyer_board_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+	}
+
+	####################
+	### AIR DESIGNER ###
+	####################
+
+	aircraft_manufacturer = {
+		designer = yes
+		
+		ilyushin_design_bureau = {
+			picture = "ilyushin_design_bureau"
+
+			traits = {
+				ilyushin_design_bureau_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+		mitsubishi = {
+			picture = "mitsubishi"
+
+			traits = {
+				mitsubishi_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+		avro = {
+			picture = "avro"
+
+			traits = {
+				avro_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+		boeing = {
+			picture = "boeing"
+
+			traits = {
+				boeing_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+		junkers = {
+			picture = "junkers"
+
+			traits = {
+				junkers_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+		heinkel = {
+			picture = "heinkel"
+
+			traits = {
+				heinkel_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+	}
+
+	#########################
+	### MATERIAL DESIGNER ###
+	#########################
+
+	materiel_manufacturer = {
+		designer = yes
+
+		ford_motor_company = {
+			picture = "ford_motor_company"
+
+			traits = {
+				ford_motor_company_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+		rsaf_enfield = {
+			picture = "rsaf_enfield"
+
+			traits = {
+				rsaf_enfield_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+		rheinmetall = {
+			picture = "rheinmetall"
+
+			traits = {
+				rheinmetall_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+	}
+	
+	###########################
+	### INDUSTRIAL DESIGNER ###
+	###########################
+	
+	industrial_concern = {
+		designer = yes
+
+		stalingrad_tractor_factory = {
+			picture = "stalingrad_tractor_factory"
+
+			research_bonus = {
+				industry = 0.2
+			}
+			traits = {
+				stalingrad_tractor_factory_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+	}
+	naval_manufacturer = {}
+}

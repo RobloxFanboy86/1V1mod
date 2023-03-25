@@ -1163,7 +1163,7 @@ leader_traits = {
 	winter_specialist = { 
 		type = corps_commander
 		gain_xp = {
-			temperature < -10
+			always = no
 		}
 		cost = 500
 		modifier = {
@@ -1206,7 +1206,7 @@ leader_traits = {
 		parent = urban_assault_specialist
 		parent = winter_specialist
 		
-		num_parents_needed = 2
+		num_parents_needed = 8
 	}
 
 	winter_expert = { 
@@ -1318,7 +1318,7 @@ leader_traits = {
 	desert_fox = { 
  		type = corps_commander
 		gain_xp = {
-			is_fighting_in_terrain = desert
+			always = no
 		}
 		cost = 700
 		modifier = {
@@ -1346,7 +1346,7 @@ leader_traits = {
 	swamp_fox = { 
 		type = corps_commander
 		gain_xp = {
-			is_fighting_in_terrain = marsh
+			always = no
 		}
 		cost = 700
 		modifier = {
@@ -1367,7 +1367,7 @@ leader_traits = {
 	trait_mountaineer = { 
 		type = corps_commander
 		gain_xp = {
-			is_fighting_in_terrain = mountain
+			always = no
 		}
 		cost = 700
 		modifier = {
@@ -1388,7 +1388,7 @@ leader_traits = {
 	hill_fighter = { 
 		type = corps_commander
 		gain_xp = {
-			is_fighting_in_terrain = hills
+			always = no
 		}
 		cost = 700
 		modifier = {
@@ -1409,7 +1409,7 @@ leader_traits = {
 	jungle_rat = { 
 		type = corps_commander
 		gain_xp = {
-			is_fighting_in_terrain = jungle
+			always = no
 		}
 		cost = 700
 		modifier = {
@@ -1430,7 +1430,7 @@ leader_traits = {
 	ranger = { 
 		type = corps_commander
 		gain_xp = {
-			is_fighting_in_terrain = forest
+			always = no
 		}
 		cost = 700
 		modifier = {
@@ -1451,7 +1451,7 @@ leader_traits = {
 	urban_assault_specialist = { 
 		type = corps_commander
 		gain_xp = {
-			is_fighting_in_terrain = urban
+			always = no
 		}
 		cost = 500
 		modifier = {

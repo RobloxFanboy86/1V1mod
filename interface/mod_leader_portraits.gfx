@@ -1,0 +1,43 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = GFX_portrait_archibald_wavell
+		texturefile = "gfx/leaders/EST/Portrait_Archibald_Wavell.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_bernard_montgomery
+		texturefile = "gfx/leaders/EST/Portrait_Bernard_Montgomery.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_erich_von_manstein
+		texturefile = "gfx/leaders/EST/Portrait_Erich_von_Manstein.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_erwin_rommel
+		texturefile = "gfx/leaders/EST/Portrait_Erwin_Rommel.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_shizuichi_tanaka
+		texturefile = "gfx/leaders/EST/Portrait_Shizuichi_Tanaka.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_tomoyuki_yamashita
+		texturefile = "gfx/leaders/EST/Portrait_Tomoyuki_Yamashita.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_georgy_zhukov
+		texturefile = "gfx/leaders/EST/Portrait_Gregory_Zhukov.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_konstantin_rokossovsky
+		texturefile = "gfx/leaders/EST/Portrait_Konstantin_Rokossovsky.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_dwight_d_eisenhower
+		texturefile = "gfx/leaders/EST/Portrait_Dwight_D_Eisenhower.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_george_s_patton
+		texturefile = "gfx/leaders/EST/Portrait_George_S_Patton.dds"
+	}
+}

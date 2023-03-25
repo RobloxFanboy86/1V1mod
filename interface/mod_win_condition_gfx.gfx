@@ -10,7 +10,7 @@ spriteTypes = {
 		size = { x = 250 y = 15}
 		effectFile = "gfx/FX/progress.lua"
 
-		steps = 100
+		steps = 1750
 	}
 
 	progressbartype = {
@@ -24,7 +24,7 @@ spriteTypes = {
 		size = { x = 250 y = 15}
 		effectFile = "gfx/FX/progress.lua"
 
-		steps = 100
+		steps = 1750
 	}
 
 	SpriteType = {
