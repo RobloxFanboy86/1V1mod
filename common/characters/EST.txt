@@ -46,7 +46,7 @@ characters = {
 			traits = {
 				army_commando_2
 			}
-			cost = 100
+			cost = 0
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -72,11 +72,7 @@ EST_yasuji_okamura={
 			traits = {
 				army_infantry_2
 			}
-			cost = 100
-			ai_will_do = {
-				factor = 2.500
-				
-			}}
+			}
 		
 	}
 	EST_Victor_Perlo = {
