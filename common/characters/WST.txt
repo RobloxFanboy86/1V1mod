@@ -14,7 +14,7 @@ WST_courtney_hodges={
 			idea_token = courtney_hodges
 			ledger = army
 			allowed = {
-				original_tag = USA
+				original_tag = WST
 			}
 			traits = {
 				army_commando_2
@@ -40,7 +40,7 @@ WST_yasuji_okamura={
 			idea_token = yasuji_okamura
 			ledger = army
 			allowed = {
-				original_tag = JAP
+				original_tag = EST
 			}
 			traits = {
 				army_infantry_2
