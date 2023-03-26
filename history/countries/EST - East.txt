@@ -77,8 +77,8 @@ recruit_character = EST_Archibald_Wavell
 recruit_character = EST_Erich_von_Manstein
 recruit_character = EST_Shizuichi_Tanaka
 recruit_character = EST_Konstantin_Rokossovsky
-recruit_character = EST_courtney_hodges
-recruit_character = EST_yasuji_okamura
+recruit_character = EST_Courtney_Hodges
+recruit_character = EST_Yasuji_Okamura
 
 
 set_politics = {
