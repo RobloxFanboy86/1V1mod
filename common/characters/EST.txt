@@ -10,7 +10,7 @@ characters = {
 			slot = political_advisor
 			idea_token = Lazar_Kaganovich
 			traits = { advisor_lazar }
-		}f
+		}
 	}
 	EST_J_von_Ribbentrop = {
 		name = "J. von Ribbentrop"

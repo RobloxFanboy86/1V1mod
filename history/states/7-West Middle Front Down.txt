@@ -5,9 +5,9 @@ state={
 	resources = {
 		steel = 5
 		#aluminium = 15
-		#tungsten = 8
+		tungsten = 2
 		#rubber = 3
-	chromium = 2
+		#chromium = 2
 	#	rubber = 5 
 	#oil = 5 
 	}
