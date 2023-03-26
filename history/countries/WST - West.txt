@@ -77,7 +77,8 @@ recruit_character = WST_Archibald_Wavell
 recruit_character = WST_Erich_von_Manstein
 recruit_character = WST_Shizuichi_Tanaka
 recruit_character = WST_Konstantin_Rokossovsky
-
+recruit_character = WST_courtney_hodges
+recruit_character = WST_yasuji_okamura
 
 set_politics = {
 	ruling_party = neutrality
