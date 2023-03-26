@@ -393,7 +393,6 @@ characters = {
 				skilled_staffer
 				organizer
 				logistics_wizard
-				offensive_doctrine
 			}
 		}
 	}
@@ -475,7 +474,6 @@ characters = {
 				cavalry_officer
 				organizer
 				unyielding_defender
-				offensive_doctrine
 				ranger
 			}
 		}
