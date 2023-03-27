@@ -44,9 +44,9 @@ characters = {
 				original_tag = EST
 			}
 			traits = {
-				army_commando_2
+				high_command_hodges
 			}
-			cost = 0
+			cost = 50
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -70,7 +70,7 @@ EST_yasuji_okamura={
 				original_tag = EST
 			}
 			traits = {
-				army_infantry_2
+				high_command_okamura
 			}
 			}
 		

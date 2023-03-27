@@ -17,9 +17,9 @@ WST_courtney_hodges={
 				original_tag = WST
 			}
 			traits = {
-				army_commando_2
+				high_command_hodges
 			}
-			cost = 0
+			cost = 50
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -40,10 +40,10 @@ WST_yasuji_okamura={
 			idea_token = yasuji_okamura
 			ledger = army
 			allowed = {
-				original_tag = EST
+				original_tag = WST
 			}
 			traits = {
-				army_infantry_2
+				high_command_okamura
 			}
 			#cost = 100
 			ai_will_do = {
