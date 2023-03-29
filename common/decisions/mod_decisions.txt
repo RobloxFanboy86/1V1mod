@@ -35,12 +35,9 @@ mod_cards_in_hand = {
 				has_war = no
 			}
 		}
-
-		complete_effect = {
-			add_timed_idea = {
-				idea = mod_boost_production_efficiency
-				days = 20
-			}
+		days_remove = 20
+		modifier = {
+			production_factory_efficiency_gain_factor = 10
 		}
 	}
 }

@@ -45,6 +45,8 @@
  high_command_ivan:0 "Air - Support"
  high_command_claude:0 "Army - Attrition"
  high_command_rommel:0 "Army - Armor"
+ high_command_okamura:0 "Army - Infantry"
+ high_command_hodges:0 "Army - Commando"
 
  air_chief_tateo:0 "Ace Generation"
  air_chief_charles:0 "Night Operation"
