@@ -3,7 +3,7 @@ tags={
 	"Map"
 	"Military"
 }
-name="TOMMYKAY 1V1 LOCAL"
+name="BALANCED 1V1 TESTING"
 picture="thumbnail.png"
 replace_path="common/abilities"
 replace_path="common/ai_focuses"
