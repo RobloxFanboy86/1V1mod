@@ -7,23 +7,8 @@ ideas = {
     tank_manufacturer = {
 		designer = yes
 
-		mytishchy_machine_building_plant = {
-			picture = "mytishchy_machine_building_plant"
-
-			research_bonus = {
-				armor = 0.1
-			}
-			traits = {
-				mytishchy_machine_building_plant_trait
-			}
-			allowed = {
-				OR = {
-					tag = EST
-					tag = WST
-				}
-			}
-		}
 		detroit_arsenal = {
+			cost = 50
 			picture = "GENERIC_detroit_arsenal"
 
 			traits = {
@@ -37,10 +22,28 @@ ideas = {
 			}
 		}
 		tank_destroyer_board = {
+			cost = 50
 			picture = "tank_destroyer_board"
 
 			traits = {
 				tank_destroyer_board_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+		porsche = {
+			cost = 50
+			picture = "porsche"
+
+			research_bonus = {
+				armor = 0.15
+			}
+			traits = {
+				porsche_trait
 			}
 			allowed = {
 				OR = {
@@ -59,6 +62,7 @@ ideas = {
 		designer = yes
 		
 		ilyushin_design_bureau = {
+			cost = 50
 			picture = "ilyushin_design_bureau"
 
 			traits = {
@@ -72,6 +76,7 @@ ideas = {
 			}
 		}
 		mitsubishi = {
+			cost = 50
 			picture = "mitsubishi"
 
 			traits = {
@@ -84,20 +89,8 @@ ideas = {
 				}
 			}
 		}
-		avro = {
-			picture = "avro"
-
-			traits = {
-				avro_trait
-			}
-			allowed = {
-				OR = {
-					tag = EST
-					tag = WST
-				}
-			}
-		}
 		boeing = {
+			cost = 50
 			picture = "boeing"
 
 			traits = {
@@ -111,6 +104,7 @@ ideas = {
 			}
 		}
 		junkers = {
+			cost = 50
 			picture = "junkers"
 
 			traits = {
@@ -124,6 +118,7 @@ ideas = {
 			}
 		}
 		heinkel = {
+			cost = 50
 			picture = "heinkel"
 
 			traits = {
@@ -146,6 +141,7 @@ ideas = {
 		designer = yes
 
 		ford_motor_company = {
+			cost = 50
 			picture = "ford_motor_company"
 
 			traits = {
@@ -159,6 +155,7 @@ ideas = {
 			}
 		}
 		rsaf_enfield = {
+			cost = 50
 			picture = "rsaf_enfield"
 
 			traits = {
@@ -172,6 +169,7 @@ ideas = {
 			}
 		}
 		rheinmetall = {
+			cost = 50
 			picture = "rheinmetall"
 
 			traits = {
@@ -194,6 +192,7 @@ ideas = {
 		designer = yes
 
 		stalingrad_tractor_factory = {
+			cost = 50
 			picture = "stalingrad_tractor_factory"
 
 			research_bonus = {
@@ -201,6 +200,40 @@ ideas = {
 			}
 			traits = {
 				stalingrad_tractor_factory_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+		ig_farben_refining_concern = {
+			cost = 50
+			picture = "ig_faben"
+
+			research_bonus = {
+				synth_resources = 0.2
+			}
+			traits = {
+				ig_farben_refining_concern_trait
+			}
+			allowed = {
+				OR = {
+					tag = EST
+					tag = WST
+				}
+			}
+		}
+		general_electric = {
+			cost = 50
+			picture = "general_electric"
+
+			research_bonus = {
+				electronics = 0.2
+			}
+			traits = {
+				general_electric_trait
 			}
 			allowed = {
 				OR = {

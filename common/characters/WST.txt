@@ -1,5 +1,19 @@
 characters = {
-WST_courtney_hodges={
+	WST_David_Lloyd_George = {
+		name = "David Lloyd George"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_david_lloyd_george"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = David_Lloyd
+			traits = { advisor_david }
+			cost = 50
+		}
+	}
+	WST_courtney_hodges={
 		name=USA_courtney_hodges
 		portraits={
 			army={
@@ -20,14 +34,9 @@ WST_courtney_hodges={
 				high_command_hodges
 			}
 			cost = 50
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
-		
-		
 	}
-WST_yasuji_okamura={
+	WST_yasuji_okamura={
 		name=JAP_yasuji_okamura
 		portraits={
 			army={
@@ -45,12 +54,8 @@ WST_yasuji_okamura={
 			traits = {
 				high_command_okamura
 			}
-			#cost = 100
-			ai_will_do = {
-				factor = 2.500
-				
-			}}
-		
+			cost = 50
+		}
 	}
 	WST_Lazar_Kaganovich = {
 		name = "Lazar Kaganovich"
@@ -63,6 +68,7 @@ WST_yasuji_okamura={
 			slot = political_advisor
 			idea_token = Lazar_Kaganovich
 			traits = { advisor_lazar }
+			cost = 50
 		}
 	}
 	WST_J_von_Ribbentrop = {
@@ -76,6 +82,7 @@ WST_yasuji_okamura={
 			slot = political_advisor
 			idea_token = J_von_Ribbentrop
 			traits = { advisor_ribbentrop }
+			cost = 50
 		}
 	}
 	WST_Victor_Perlo = {
@@ -89,6 +96,7 @@ WST_yasuji_okamura={
 			slot = political_advisor
 			idea_token = Victor_Perlo
 			traits = { advisor_victor }
+			cost = 50
 		}
 	}
 	WST_Henry_Stimson = {
@@ -102,6 +110,7 @@ WST_yasuji_okamura={
 			slot = political_advisor
 			idea_token = Henry_Stimson
 			traits = { advisor_henry }
+			cost = 50
 		}
 	}
 	WST_Fritz_Todt = {
@@ -115,6 +124,7 @@ WST_yasuji_okamura={
 			slot = political_advisor
 			idea_token = Fritz_Todt
 			traits = { advisor_fritz }
+			cost = 50
 		}
 	}
 	WST_Heinz_Guderian = {
@@ -129,6 +139,7 @@ WST_yasuji_okamura={
 			ledger = army
 			idea_token = Heinz_Guderian
 			traits = { theorist_heinz }
+			cost = 50
 		}
 	}
 	WST_Ernst_Udet = {
@@ -143,6 +154,7 @@ WST_yasuji_okamura={
 			ledger = air
 			idea_token = Ernst_Udet
 			traits = { theorist_ernst }
+			cost = 50
 		}
 	}
 	WST_Arthur_Harris = {
@@ -157,6 +169,7 @@ WST_yasuji_okamura={
 			ledger = air
 			idea_token = Arthur_Harris
 			traits = { theorist_arthur }
+			cost = 50
 		}
 	}
 	WST_Wernher_von_Braun = {
@@ -172,8 +185,9 @@ WST_yasuji_okamura={
 			idea_token = Wernher_von_Braun
 			traits = { theorist_wernher }
 			research_bonus = {
-				rocketry = 0.15
+				rocketry = 0.25
 			}
+			cost = 50
 		}
 	}
 	WST_Robert_Oppenheimer = {
@@ -189,8 +203,9 @@ WST_yasuji_okamura={
 			idea_token = Robert_Oppenheimer
 			traits = { theorist_oppenheimer }
 			research_bonus = {
-				nuclear = 0.15
+				nuclear = 0.25
 			}
+			cost = 50
 		}
 	}
 	WST_Franz_Halder = {
@@ -204,6 +219,7 @@ WST_yasuji_okamura={
 			slot = army_chief
 			idea_token = Franz_Halder
 			traits = { army_chief_franz }
+			cost = 50
 		}
 	}
 	WST_Hajime_Sugiyama = {
@@ -217,6 +233,7 @@ WST_yasuji_okamura={
 			slot = army_chief
 			idea_token = Hajime_Sugiyama
 			traits = { army_chief_hajime }
+			cost = 50
 		}
 	}
 	WST_Alan_Brooke = {
@@ -230,6 +247,7 @@ WST_yasuji_okamura={
 			slot = army_chief
 			idea_token = Alan_Brooke
 			traits = { army_chief_alan }
+			cost = 50
 		}
 	}
 	WST_Ludwig_Beck = {
@@ -243,6 +261,7 @@ WST_yasuji_okamura={
 			slot = army_chief
 			idea_token = Ludwig_Beck
 			traits = { army_chief_ludwig }
+			cost = 50
 		}
 	}
 	WST_Hermann_Goring = {
@@ -256,6 +275,7 @@ WST_yasuji_okamura={
 			slot = air_chief
 			idea_token = Hermann_Goring
 			traits = { air_chief_goring }
+			cost = 50
 		}
 	}
 	WST_Henry_Arnold = {
@@ -269,6 +289,7 @@ WST_yasuji_okamura={
 			slot = air_chief
 			idea_token = Henry_Arnold
 			traits = { air_chief_arnold }
+			cost = 50
 		}
 	}
 	WST_Charles_Portal = {
@@ -282,6 +303,7 @@ WST_yasuji_okamura={
 			slot = air_chief
 			idea_token = Charles_Portal
 			traits = { air_chief_charles }
+			cost = 50
 		}
 	}
 	WST_Tateo_Kato = {
@@ -295,6 +317,7 @@ WST_yasuji_okamura={
 			slot = air_chief
 			idea_token = Tateo_Kato
 			traits = { air_chief_tateo }
+			cost = 50
 		}
 	}
 	WST_Claude_Aukinleck = {
@@ -308,6 +331,7 @@ WST_yasuji_okamura={
 			slot = high_command
 			idea_token = Claude_Aukinleck
 			traits = { high_command_claude }
+			cost = 50
 		}
 	}
 	WST_Ivan_Konev = {
@@ -321,6 +345,7 @@ WST_yasuji_okamura={
 			slot = high_command
 			idea_token = Ivan_Konev
 			traits = { high_command_ivan }
+			cost = 50
 		}
 	}
 	WST_Kimmy_Doolittle = {
@@ -334,6 +359,7 @@ WST_yasuji_okamura={
 			slot = high_command
 			idea_token = Kimmy_Doolittle
 			traits = { high_command_kimmy }
+			cost = 50
 		}
 	}
 	WST_Trafford_Leigh_Mallory = {
@@ -347,6 +373,7 @@ WST_yasuji_okamura={
 			slot = high_command
 			idea_token = Trafford_Leigh_Mallory
 			traits = { high_command_trafford }
+			cost = 50
 		}
 	}
 	WST_Georgy_Zhukov = {
@@ -362,6 +389,7 @@ WST_yasuji_okamura={
 			ledger = army
 			idea_token = Georgy_Zhukov
 			traits = { theorist_zhukov }
+			cost = 50
 		}
 		corps_commander = {
    			skill = 1
@@ -388,6 +416,7 @@ WST_yasuji_okamura={
 			ledger = army
 			idea_token = Tomoyuki_Yamashita
 			traits = { theorist_tomoyuki }
+			cost = 50
 		}
 		corps_commander = {
    			skill = 1
@@ -414,6 +443,7 @@ WST_yasuji_okamura={
 			slot = high_command
 			idea_token = Erwin_Rommel
 			traits = { high_command_rommel }
+			cost = 50
 		}
 		corps_commander = {
    			skill = 1

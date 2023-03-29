@@ -79,6 +79,7 @@ recruit_character = EST_Shizuichi_Tanaka
 recruit_character = EST_Konstantin_Rokossovsky
 recruit_character = EST_Courtney_Hodges
 recruit_character = EST_Yasuji_Okamura
+recruit_character = EST_David_Lloyd_George
 
 
 set_politics = {
@@ -177,7 +178,7 @@ add_command_power = 20
 set_research_slots = 3
 set_variable = {
     var = morale_east
-    value = 1750
+    value = 1250
 }
 set_variable = {
     var = points_east
@@ -185,7 +186,7 @@ set_variable = {
 }
 set_variable = {
     var = morale_west
-    value = 1750
+    value = 1250
 }
 set_variable = {
     var = points_west

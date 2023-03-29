@@ -1,0 +1,32 @@
+bookmarks = {
+	bookmark = {
+		name = "Balanced 1v1"
+		desc = ""
+		date = 1939.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "EST"
+		default = yes
+		
+		"WST"={
+			#minor = yes
+			history = "EST_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {}
+			focuses = {}
+		}
+		"EST"={
+			#minor = yes
+			history = "WST_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {}
+			focuses = {}
+		}
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

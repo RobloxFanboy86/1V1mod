@@ -71,21 +71,20 @@
  advisor_victor:0 "Production"
  advisor_ribbentrop:0 "Intelligence"
  advisor_lazar:0 "Logistics"
+ advisor_david:0 "Political Power"
 
  #Designers
- mytishchy_machine_building_plant:0 "Mytishchy Machine Building Plant"
- mytishchy_machine_building_plant_trait:0 "Equipment & Armor"
  detroit_arsenal:0 "Detroit Arsenal"
- detroit_arsenal_trait:0 "Light & Medium Tank"
+ detroit_arsenal_trait:0 "Medium Tank"
  tank_destroyer_board:0 "Tank Destroyer Board"
  tank_destroyer_board_trait:0 "Tank Destroyer"
+ porsche:0 "Porsche"
+ porsche_trait:0 "Heavy Tank"
 
  ilyushin_design_bureau:0 "Ilyushin Design Bureau"
  ilyushin_design_bureau_trait:0 "CAS"
  mitsubishi:0 "Mitsubishi"
  mitsubishi_trait:0 "Fighter"
- avro:0 "Avro"
- avro_trait:0 "Strategic Bomber"
  boeing:0 "Boeing"
  boeing_trait:0 "Strategic Bomber"
  junkers:0 "Junkers"
@@ -102,6 +101,11 @@
 
  stalingrad_tractor_factory:0 "Stalingrad Tractor Company"
  stalingrad_tractor_factory_trait:0 "Tank Production & Industry Research"
+ ig_farben_refining_concern:0 "IG Farben Refining Concern"
+ ig_farben_refining_concern_trait:0 "Synthetics Research"
+ general_electric:0 "General Electric"
+ general_electric_trait:0 "Electronics Research"
+
 
  #Tooltips
  this_focus_does_nothing:0 "§GThis focus does nothing and can be bypassed immediately.§!"
@@ -111,8 +115,8 @@
  aggressive_tt_start:0 "      Equipment Capture Ratio: §G+3%§!\n      Equipment Conversion Speed: §G+10%§!" #dont mind the weird blue text if you use VSCODE, hoi4 addon hates colons
  aggressive_tt:0 "Modify §YAggressive Industry§! by\n      Equipment Capture Ratio: §G+3%§!"
  labour_tt:0 "Modify §YAggressive Industry§! or §YFlexible Industry§! by\n      Factory Output: §G+10%§!\n      Production Retention: §G+20%§!\n      Equipment Conversion Speed: §G+10%§!"
- flexible_tt_start:0 "      Construction Speed: §G +10%§!"
- flexible_tt:0 "Modify §YFlexible Industry§! By:\n      Construction Speed: §G +10%§!"
+ #flexible_tt_start:0 "      Construction Speed: §G +10%§!"
+ #flexible_tt:0 "Modify §YFlexible Industry§! By:\n      Construction Speed: §G +10%§!"
  production_tt:0 "Modify §YBuildup Industry§! or §YFlexible Industry§! by\n      Production Efficiency Base: §G+10%§!\n      Production Efficiency Cap: §G+10%§!"
  buildup_tt_start:0 "       Production Efficiency Gain: §G+10%§!"
  buildup_tt:0 "Modify §YBuildup Industry§! By:\n       Production Efficiency Gain: §G+10%§!"

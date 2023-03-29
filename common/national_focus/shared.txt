@@ -301,21 +301,12 @@ shared_focus = {
 		focus = buildup_industry_focus
 	}
 	completion_reward = {
-		add_tech_bonus = {
-			bonus = 2
-			uses = 3
-			category = industry
-		}
-		set_variable = {balanced_construction_speed = 0.1}
 		set_variable = {balanced_retention = 0}
 		set_variable = {balanced_factory_output = 0}
 		set_variable = {balanced_conversion_speed = 0}
 		set_variable = {balanced_efficiency_base = 0}
 		set_variable = {balanced_efficiency_cap = 0}
-		add_dynamic_modifier = {
-			modifier = flexible_industry
-		}
-		custom_effect_tooltip = flexible_tt_start
+		#custom_effect_tooltip = flexible_tt_start
 		if = {
 			limit = {
 				TAG = EST
@@ -366,8 +357,6 @@ shared_focus = {
 		focus = flexible_industry_focus
 	}
 	completion_reward = { 
-		custom_effect_tooltip = flexible_tt
-		add_to_variable = {balanced_construction_speed = 0.1}
 		if = {
 			limit = {
 				TAG = EST
@@ -418,8 +407,6 @@ shared_focus = {
 		focus = balanced_1
 	}
 	completion_reward = { 
-		custom_effect_tooltip = flexible_tt
-		add_to_variable = {balanced_construction_speed = 0.1}
 		if = {
 			limit = {
 				TAG = EST
@@ -470,8 +457,6 @@ shared_focus = {
 		focus = balanced_2
 	}
 	completion_reward = { 
-		custom_effect_tooltip = flexible_tt
-		add_to_variable = {balanced_construction_speed = 0.1}
 		if = {
 			limit = {
 				TAG = EST
@@ -621,10 +606,10 @@ shared_focus = {
 				TAG = EST
 			}
 			16 = {
-				add_extra_state_shared_building_slots = 10
+				add_extra_state_shared_building_slots = 15
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 15
     				instant_build = yes
 				}
 			}
@@ -635,10 +620,10 @@ shared_focus = {
 				TAG = WST
 			}
 			6 = {
-				add_extra_state_shared_building_slots = 10
+				add_extra_state_shared_building_slots = 15
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 15
     				instant_build = yes
 				}
 			}
@@ -663,10 +648,10 @@ shared_focus = {
 				TAG = EST
 			}
 			13 = {
-				add_extra_state_shared_building_slots = 10
+				add_extra_state_shared_building_slots = 15
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 15
     				instant_build = yes
 				}
 			}
@@ -677,10 +662,10 @@ shared_focus = {
 				TAG = WST
 			}
 			3 = {
-				add_extra_state_shared_building_slots = 10
+				add_extra_state_shared_building_slots = 15
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 15
     				instant_build = yes
 				}
 			}
@@ -705,10 +690,10 @@ shared_focus = {
 				TAG = EST
 			}
 			20 = {
-				add_extra_state_shared_building_slots = 10
+				add_extra_state_shared_building_slots = 15
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 15
     				instant_build = yes
 				}
 			}
@@ -719,10 +704,10 @@ shared_focus = {
 				TAG = WST
 			}
 			10 = {
-				add_extra_state_shared_building_slots = 10
+				add_extra_state_shared_building_slots = 15
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 15
     				instant_build = yes
 				}
 			}
@@ -747,10 +732,10 @@ shared_focus = {
 				TAG = EST
 			}
 			18 = {
-				add_extra_state_shared_building_slots = 10
+				add_extra_state_shared_building_slots = 15
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 15
     				instant_build = yes
 				}
 			}
@@ -761,10 +746,10 @@ shared_focus = {
 				TAG = WST
 			}
 			8 = {
-				add_extra_state_shared_building_slots = 10
+				add_extra_state_shared_building_slots = 15
 				add_building_construction = {
     				type = industrial_complex
-   					level = 10
+   					level = 15
     				instant_build = yes
 				}
 			}
@@ -1000,7 +985,6 @@ shared_focus = {
 		set_technology = {
 			improved_light_tank_chassis = 1
 		}
-		add_ideas = light_tank_production
 		
 		add_tech_bonus = {
 			category = cat_light_armor
@@ -1028,7 +1012,7 @@ shared_focus = {
 		}
 		add_equipment_to_stockpile = {
 			type = light_tank_chassis_1
-			amount = 2500
+			amount = 1250
 			variant_name = "Light Tank Variant"
 		}
 	}
@@ -1051,7 +1035,6 @@ shared_focus = {
 		set_technology = {
 			improved_medium_tank_chassis = 1
 		}
-		add_ideas = medium_tank_production
 		
 		create_equipment_variant = {
 			name = "Medium Tank Variant"
@@ -1074,7 +1057,7 @@ shared_focus = {
 		}
 		add_equipment_to_stockpile = {
 			type = medium_tank_chassis_1
-			amount = 1500
+			amount = 750
 			variant_name = "Medium Tank Variant"
 		}
 	}
@@ -1097,7 +1080,6 @@ shared_focus = {
 		set_technology = {
 			improved_heavy_tank_chassis = 1
 		}
-		add_ideas = heavy_tank_production
 		
 		create_equipment_variant = {
 			name = "Heavy Tank Variant"
@@ -1119,7 +1101,7 @@ shared_focus = {
 		}
 		add_equipment_to_stockpile = {
 			type = heavy_tank_chassis_1
-			amount = 1000
+			amount = 500
 			variant_name = "Heavy Tank Variant"
 		}
 		
@@ -1174,7 +1156,7 @@ shared_focus = {
 	completion_reward = { 
 		add_timed_idea = {
 			idea = logi_drive
-			days = 120
+			days = 60
 		}
 	}
 }
@@ -1419,7 +1401,6 @@ shared_focus = {
 		set_technology = {
 			improved_medium_airframe = 1
 		}
-		add_ideas = tac_bomber_production
 	}
 }
 shared_focus = {
@@ -1459,6 +1440,5 @@ shared_focus = {
 		set_technology = {
 			improved_large_airframe = 1
 		}
-		add_ideas = strat_bomber_production
 	}
 }
