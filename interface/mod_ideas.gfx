@@ -152,4 +152,20 @@ spriteTypes = {
 		name = "GFX_idea_GENERIC_detroit_arsenal"
 		texturefile = "gfx/interface/ideas/idea_GENERIC_detroit_arsenal.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_david_lloyd_george"
+		texturefile = "gfx/interface/ideas/idea_david_lloyd_george.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_porsche"
+		texturefile = "gfx/interface/ideas/idea_porsche.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ig_faben"
+		texturefile = "gfx/interface/ideas/idea_ig_faben.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_general_electric"
+		texturefile = "gfx/interface/ideas/idea_general_electric.dds"
+	}
 }

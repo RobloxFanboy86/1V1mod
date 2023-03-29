@@ -52,6 +52,10 @@ leader_traits = {
 		production_speed_anti_air_building_factor = 0.20
 		production_speed_bunker_factor = 0.20
 	}
+	advisor_david = {
+		sprite = 13
+		political_power_factor = 0.15
+	}
 
 	#######################
 	### THEORIST TRAITS ###
@@ -103,42 +107,42 @@ leader_traits = {
 
 	army_chief_franz = {
 		sprite = 7
-		experience_gain_army = 0.4
+		experience_gain_army = 0.6
 		army_attack_factor = 0.1
 	}
 	army_chief_hajime = {
 		sprite = 5
-		experience_gain_army = 0.5
+		experience_gain_army = 0.8
 		training_time_factor = -0.25
 	}
 	army_chief_alan = {
 		sprite = 5
-		experience_gain_army = 0.4
+		experience_gain_army = 0.6
 		army_speed_factor = 0.15
 	}
 	army_chief_ludwig = {
 		sprite = 5
-		experience_gain_army = 0.4
+		experience_gain_army = 0.6
 		army_org_factor = 0.08
 	}
 	air_chief_goring = {
 		sprite = 1
-		experience_gain_air = 0.4
+		experience_gain_air = 0.6
 		army_bonus_air_superiority_factor = 0.1
 	}
 	air_chief_arnold = {
 		sprite = 1
-		experience_gain_air = 0.4
+		experience_gain_air = 0.6
 		experience_gain_air_factor = 0.15
 	}
 	air_chief_charles = {
 		sprite = 1
-		experience_gain_air = 0.5
+		experience_gain_air = 0.6
 		air_night_penalty = -0.2
 	}
 	air_chief_tateo = {
 		sprite = 1
-		experience_gain_air = 0.5
+		experience_gain_air = 0.8
 		air_ace_generation_chance_factor = 0.15
 	}
 
@@ -187,20 +191,12 @@ leader_traits = {
 	### TANK DESIGNER ###
 	#####################
 
-	mytishchy_machine_building_plant_trait = {
-		equipment_capture_factor = 0.15
-		equipment_conversion_speed = 0.15
-		land_equipment_upgrade_xp_cost = -0.1
-	}
 	detroit_arsenal_trait = {
 		equipment_bonus = {
-			light_tank_chassis = {
-				instant = yes
-				build_cost_ic = -0.1
-			}
 			medium_tank_chassis = {
 				instant = yes
 				build_cost_ic = -0.1
+				reliability = 0.1
 			}
 		}
 	}
@@ -226,6 +222,18 @@ leader_traits = {
 			}
 		}
 	}
+	porsche_trait = {
+		equipment_bonus = {
+			armor = {
+				armor_value = 0.05
+				hard_attack = 0.05
+			}
+			heavy_tank_chassis = {
+				instant = yes
+				build_cost_ic = -0.1
+			}
+		}
+	}
 
 	#########################
 	### AIRCRAFT DESIGNER ###
@@ -248,21 +256,12 @@ leader_traits = {
 			}
 		}
 	}
-	avro_trait = {
-		air_strategic_bomber_night_penalty = -0.75
-		equipment_bonus = {
-			tactical_bomber = {
-				instant = yes
-				build_cost_ic = -0.25
-			}
-		}
-	}
 	boeing_trait = {
 		equipment_bonus = {
 			tactical_bomber = {
 				instant = yes
-				build_cost_ic = -0.25
-				air_attack = 0.25
+				build_cost_ic = -0.10
+				air_attack = 0.10
 			}
 		}
 	}
@@ -277,6 +276,12 @@ leader_traits = {
 	}
 	heinkel_trait = {
 		air_strategic_bomber_bombing_factor = 0.1
+		equipment_bonus = {
+			tac_bomber_equipment = {
+				instant = yes
+				build_cost_ic = -0.1
+			}
+		}
 	}
 
 	#########################
@@ -287,7 +292,7 @@ leader_traits = {
 		equipment_bonus = {
 			motorized_equipment = {
 				instant = yes
-				build_cost_ic = -0.2
+				build_cost_ic = -0.1
 			}
 		}
 	}
@@ -328,6 +333,8 @@ leader_traits = {
 			}
 		}
 	}
+	ig_farben_refining_concern_trait = {}
+	general_electric_trait = {}
 
 	#####################
 	#####################

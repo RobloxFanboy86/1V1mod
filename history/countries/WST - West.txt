@@ -79,6 +79,7 @@ recruit_character = WST_Shizuichi_Tanaka
 recruit_character = WST_Konstantin_Rokossovsky
 recruit_character = WST_courtney_hodges
 recruit_character = WST_yasuji_okamura
+recruit_character = WST_David_Lloyd_George
 
 set_politics = {
 	ruling_party = neutrality
@@ -176,7 +177,7 @@ add_command_power = 20
 set_research_slots = 3
 set_variable = {
     var = morale_east
-    value = 1750
+    value = 1250
 }
 set_variable = {
     var = points_east
@@ -184,7 +185,7 @@ set_variable = {
 }
 set_variable = {
     var = morale_west
-    value = 1750
+    value = 1250
 }
 set_variable = {
     var = points_west

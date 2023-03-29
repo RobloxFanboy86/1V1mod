@@ -91,20 +91,20 @@ ideas = {
 			equipment_bonus = {
 				motorized_equipment = {
 					instant = yes
-					build_cost_ic = -0.5
+					build_cost_ic = -0.25
 				}
 				support_equipment = {
 					instant = yes
-					build_cost_ic = -0.5
+					build_cost_ic = -0.25
 				}
 				train_equipment = {
 					instant = yes
-					build_cost_ic = -0.5
+					build_cost_ic = -0.25
 				}
 			}
 			modifier = {
-				production_speed_supply_node_factor = 0.75
-				production_speed_rail_way_factor = 0.75
+				production_speed_supply_node_factor = 0.25
+				production_speed_rail_way_factor = 0.25
 			}
 		}
 		air_defence_idea = {
