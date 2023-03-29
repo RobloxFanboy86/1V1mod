@@ -258,7 +258,7 @@ leader_traits = {
 	}
 	boeing_trait = {
 		equipment_bonus = {
-			tactical_bomber = {
+			strat_bomber_equipment = {
 				instant = yes
 				build_cost_ic = -0.10
 				air_attack = 0.10
@@ -266,20 +266,20 @@ leader_traits = {
 		}
 	}
 	junkers_trait = {
-		ground_attack_factor = 0.1
 		equipment_bonus = {
 			cas = {
 				instant = yes
 				reliability = 0.1
+				air_ground_attack = 0.1
 			}
 		}
 	}
 	heinkel_trait = {
-		air_strategic_bomber_bombing_factor = 0.1
 		equipment_bonus = {
 			tac_bomber_equipment = {
 				instant = yes
 				build_cost_ic = -0.1
+				air_bombing = 0.1
 			}
 		}
 	}
