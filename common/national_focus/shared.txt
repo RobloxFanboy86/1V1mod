@@ -514,9 +514,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		custom_effect_tooltip = production_tt
-		add_to_variable = {balanced_efficiency_base = 0.1}
 		add_to_variable = {balanced_efficiency_cap = 0.1}
-		add_to_variable = {buildup_efficiency_base = 0.1}
 		add_to_variable = {buildup_efficiency_cap = 0.1}
 	}
 }
@@ -542,9 +540,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		custom_effect_tooltip = production_tt
-		add_to_variable = {balanced_efficiency_base = 0.1}
 		add_to_variable = {balanced_efficiency_cap = 0.1}
-		add_to_variable = {buildup_efficiency_base = 0.1}
 		add_to_variable = {buildup_efficiency_cap = 0.1}
 	}
 }
@@ -570,9 +566,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		custom_effect_tooltip = production_tt
-		add_to_variable = {balanced_efficiency_base = 0.1}
 		add_to_variable = {balanced_efficiency_cap = 0.1}
-		add_to_variable = {buildup_efficiency_base = 0.1}
 		add_to_variable = {buildup_efficiency_cap = 0.1}
 	}
 }

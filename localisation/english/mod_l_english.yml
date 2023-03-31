@@ -117,7 +117,7 @@
  labour_tt:0 "Modify §YAggressive Industry§! or §YFlexible Industry§! by\n      Factory Output: §G+10%§!\n      Production Retention: §G+20%§!\n      Equipment Conversion Speed: §G+10%§!"
  #flexible_tt_start:0 "      Construction Speed: §G +10%§!"
  #flexible_tt:0 "Modify §YFlexible Industry§! By:\n      Construction Speed: §G +10%§!"
- production_tt:0 "Modify §YBuildup Industry§! or §YFlexible Industry§! by\n      Production Efficiency Base: §G+10%§!\n      Production Efficiency Cap: §G+10%§!"
+ production_tt:0 "Modify §YBuildup Industry§! or §YFlexible Industry§! by\n      Production Efficiency Cap: §G+10%§!"
  buildup_tt_start:0 "       Production Efficiency Gain: §G+10%§!"
  buildup_tt:0 "Modify §YBuildup Industry§! By:\n       Production Efficiency Gain: §G+10%§!"
 
