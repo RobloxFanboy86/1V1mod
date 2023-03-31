@@ -333,7 +333,6 @@ on_actions = {
 			if = {
 				limit = {
 					check_variable = { morale_west = 0 }
-					
 				}
 				country_event = { id = victory.2 }
 				white_peace = WST
@@ -341,10 +340,28 @@ on_actions = {
 			}
 		}
 	}
-	on_peaceconference_started = {
+	on_capitulation_immediate  = {
 		effect = {
-			white_peace = WST
-			white_peace = EST
+			if = {
+				limit = {
+					FROM = {
+						tag = WST
+					}
+				}
+				country_event = { id = victory.1 }
+				white_peace = WST
+				white_peace = EST
+			}
+			if = {
+				limit = {
+					FROM = {
+						tag = EST
+					}
+				}
+				country_event = { id = victory.2 }
+				white_peace = WST
+				white_peace = EST
+			}
 		}
 	}
 }
