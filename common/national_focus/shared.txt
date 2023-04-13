@@ -514,9 +514,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		custom_effect_tooltip = production_tt
-		add_to_variable = {balanced_efficiency_base = 0.1}
 		add_to_variable = {balanced_efficiency_cap = 0.1}
-		add_to_variable = {buildup_efficiency_base = 0.1}
 		add_to_variable = {buildup_efficiency_cap = 0.1}
 	}
 }
@@ -542,9 +540,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		custom_effect_tooltip = production_tt
-		add_to_variable = {balanced_efficiency_base = 0.1}
 		add_to_variable = {balanced_efficiency_cap = 0.1}
-		add_to_variable = {buildup_efficiency_base = 0.1}
 		add_to_variable = {buildup_efficiency_cap = 0.1}
 	}
 }
@@ -570,9 +566,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		custom_effect_tooltip = production_tt
-		add_to_variable = {balanced_efficiency_base = 0.1}
 		add_to_variable = {balanced_efficiency_cap = 0.1}
-		add_to_variable = {buildup_efficiency_base = 0.1}
 		add_to_variable = {buildup_efficiency_cap = 0.1}
 	}
 }
@@ -605,10 +599,10 @@ shared_focus = {
 				TAG = EST
 			}
 			16 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 7
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 7
     				instant_build = yes
 				}
 			}
@@ -619,10 +613,10 @@ shared_focus = {
 				TAG = WST
 			}
 			6 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 7
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 7
     				instant_build = yes
 				}
 			}
@@ -647,10 +641,10 @@ shared_focus = {
 				TAG = EST
 			}
 			13 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 7
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 7
     				instant_build = yes
 				}
 			}
@@ -661,10 +655,10 @@ shared_focus = {
 				TAG = WST
 			}
 			3 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 7
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 7
     				instant_build = yes
 				}
 			}
@@ -689,10 +683,10 @@ shared_focus = {
 				TAG = EST
 			}
 			20 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 8
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 8
     				instant_build = yes
 				}
 			}
@@ -703,10 +697,10 @@ shared_focus = {
 				TAG = WST
 			}
 			10 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 8
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 8
     				instant_build = yes
 				}
 			}
@@ -731,10 +725,10 @@ shared_focus = {
 				TAG = EST
 			}
 			18 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 8
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 8
     				instant_build = yes
 				}
 			}
@@ -745,10 +739,10 @@ shared_focus = {
 				TAG = WST
 			}
 			8 = {
-				add_extra_state_shared_building_slots = 15
+				add_extra_state_shared_building_slots = 8
 				add_building_construction = {
     				type = industrial_complex
-   					level = 15
+   					level = 8
     				instant_build = yes
 				}
 			}
