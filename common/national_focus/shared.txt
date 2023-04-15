@@ -305,6 +305,9 @@ shared_focus = {
 		set_variable = {balanced_conversion_speed = 0}
 		set_variable = {balanced_efficiency_base = 0}
 		set_variable = {balanced_efficiency_cap = 0}
+		add_dynamic_modifier = {
+			modifier = flexible_industry
+		}
 		#custom_effect_tooltip = flexible_tt_start
 		if = {
 			limit = {
