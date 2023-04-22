@@ -1,31 +1,32 @@
-state = {
-	id = 1
-	name = "STATE_1"
 
-	resources = {
-		steel = 10
-		chromium = 1
-		oil = 1
+state={
+	id=1
+	name="STATE_1"
+	resources={
+		steel=10.000
+		chromium=1.000
+		oil=1.000
 	}
 
-	history = {
+	history={
 		owner = WST
 		add_core_of = WST
-
-		victory_points = { 617 100 }
-
+		victory_points = {
+			617 100 
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 4
+
 		}
+
 	}
 
-	provinces = {
-		44 111 316 409 471 514 617 753 769 776 863 864 870 881 898 2780 3256 
+	provinces={
+		44 111 316 409 471 514 617 753 769 776 863 864 870 881 2780 
 	}
-
-	manpower = 1
-	buildings_max_level_factor = 1.000
-	state_category = town
-	local_supplies = 0.000
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
