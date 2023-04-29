@@ -1,0 +1,66 @@
+focus_tree = {
+	id = generic_east_tree_east
+	country = {
+		factor = 0
+		
+		
+		
+	}
+	focus = {
+		id = select_start
+		icon = GFX_goal_generic_alliance
+		x = 8
+		y = 0
+	}
+	focus = {
+		id = select_USA
+		icon = GFX_focus_usa_recruit_the_free_corps
+		relative_position_id = select_start
+		x = -4
+		y = 1
+		prerequisite = {
+			focus = select_start
+		}
+	}
+	focus = {
+		id = select_SOV
+		icon = GFX_focus_SOV_builder_of_the_red_army
+		relative_position_id = select_start
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = select_start
+		}
+	}
+	focus = {
+		id = select_ENG
+		icon = GFX_focus_eng_the_sun_never_sets
+		relative_position_id = select_start
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = select_start
+		}
+	}
+	focus = {
+		id = select_GER
+		icon = GFX_focus_ger_oppose_hitler
+		relative_position_id = select_start
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = select_start
+		}
+	}
+	focus = {
+		id = select_JAP
+		icon = GFX_focus_generic_japanese_imperial_glory
+		relative_position_id = select_start
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = select_start
+		}
+	}
+#End of focuses 
+}

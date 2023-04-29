@@ -1,11 +1,11 @@
 ﻿focus_tree = {
-	id = generic_east_tree_east
+	id = mod_tree_generic
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
-			tag = EST
+			always = yes
 			
 		}
 		
