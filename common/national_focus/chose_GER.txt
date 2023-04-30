@@ -1,17 +1,24 @@
 focus_tree = {
-	id = generic_east_tree_east
+	id = chose_GER_tree
 	country = {
 		factor = 0
+		
 		modifier = {
-			add = 100
+			add = 1000
+			has_country_flag = chose_GER
+			
 		}
 		
 		
 	}
+	continuous_focus_position = {
+		x = 0
+		y = 1500
+	}
 	focus = {
-		id = select_start
+		id = GER_select_start
 		icon = GFX_goal_generic_alliance
-		x = 8
+		x = 20
 		y = 0
 		cost = 0
 		text = select_start
@@ -23,29 +30,23 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = select_USA
+		id = GER_select_USA
 		icon = GFX_focus_usa_recruit_the_free_corps
-		relative_position_id = select_start
+		relative_position_id = GER_select_start
 		x = -6
 		y = 1
 		text = select_USA
 		prerequisite = {
-			focus = select_start
+			focus  = GER_select_start
 		}
 		mutually_exclusive = {
-			focus = select_ENG
-			focus = select_GER
-			focus = select_JAP
-			focus = select_SOV
+			focus  = GER_select_ENG
+			focus  = GER_select_GER
+			focus  = GER_select_JAP
+			focus  = GER_select_SOV
 		}
 		cost = 1
 		completion_reward = {
-			load_focus_tree = chose_USA_tree
-			hidden_effect = {
-				complete_national_focus = USA_select_start
-				complete_national_focus = USA_select_USA
-			}
-			set_country_flag = chose_USA
 			set_cosmetic_tag = chose_USA
 			if = {
 				limit = {
@@ -71,33 +72,26 @@ focus_tree = {
 					}
 				}
 			}
-			
 		}
 	}
 	focus = {
-		id = select_SOV
+		id = GER_select_SOV
 		icon = GFX_focus_SOV_builder_of_the_red_army
-		relative_position_id = select_start
+		relative_position_id = GER_select_start
 		x = -3
 		y = 1
 		prerequisite = {
-			focus = select_start
+			focus  = GER_select_start
 		}
 		text = select_SOV
 		mutually_exclusive = {
-			focus = select_ENG
-			focus = select_GER
-			focus = select_JAP
-			focus = select_USA
+			focus  = GER_select_ENG
+			focus  = GER_select_GER
+			focus  = GER_select_JAP
+			focus  = GER_select_USA
 		}
 		cost = 1
 		completion_reward = {
-			load_focus_tree = chose_SOV_tree
-			hidden_effect = {
-				complete_national_focus = SOV_select_start
-				complete_national_focus = SOV_select_SOV
-			}
-			set_country_flag = chose_SOV
 			set_cosmetic_tag = chose_SOV
 			if = {
 				limit = {
@@ -126,29 +120,23 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = select_ENG
+		id = GER_select_ENG
 		icon = GFX_focus_eng_the_sun_never_sets
-		relative_position_id = select_start
+		relative_position_id = GER_select_start
 		x = 0
 		y = 1
 		prerequisite = {
-			focus = select_start
+			focus  = GER_select_start
 		}
 		mutually_exclusive = {
-			focus = select_USA
-			focus = select_GER
-			focus = select_JAP
-			focus = select_SOV
+			focus  = GER_select_USA
+			focus  = GER_select_GER
+			focus  = GER_select_JAP
+			focus  = GER_select_SOV
 		}
 		text = select_ENG
 		cost = 1
 		completion_reward = {
-			load_focus_tree = chose_ENG_tree
-			hidden_effect = {
-				complete_national_focus = ENG_select_start
-				complete_national_focus = ENG_select_ENG
-			}
-			set_country_flag = chose_ENG
 			set_cosmetic_tag = chose_ENG
 			if = {
 				limit = {
@@ -177,29 +165,23 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = select_GER
+		id = GER_select_GER
 		icon = GFX_focus_ger_oppose_hitler
-		relative_position_id = select_start
+		relative_position_id = GER_select_start
 		x = 3
 		y = 1
 		prerequisite = {
-			focus = select_start
+			focus  = GER_select_start
 		}
 		mutually_exclusive = {
-			focus = select_ENG
-			focus = select_USA
-			focus = select_JAP
-			focus = select_SOV
+			focus  = GER_select_ENG
+			focus  = GER_select_USA
+			focus  = GER_select_JAP
+			focus  = GER_select_SOV
 		}
 		text = select_GER
 		cost = 1
 		completion_reward = {
-			load_focus_tree = chose_GER_tree
-			hidden_effect = {
-				complete_national_focus = GER_select_start
-				complete_national_focus = GER_select_GER
-			}
-			set_country_flag = chose_GER
 			set_cosmetic_tag = chose_GER
 			if = {
 				limit = {
@@ -228,29 +210,23 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = select_JAP
+		id = GER_select_JAP
 		icon = GFX_focus_generic_japanese_imperial_glory
-		relative_position_id = select_start
+		relative_position_id = GER_select_start
 		x = 6
 		y = 1
 		prerequisite = {
-			focus = select_start
+			focus  = GER_select_start
 		}
 		mutually_exclusive = {
-			focus = select_ENG
-			focus = select_GER
-			focus = select_USA
-			focus = select_SOV
+			focus  = GER_select_ENG
+			focus  = GER_select_GER
+			focus  = GER_select_USA
+			focus  = GER_select_SOV
 		}
 		text = select_JAP
 		cost = 1
 		completion_reward = {
-			load_focus_tree = chose_JAP_tree
-			hidden_effect = {
-				complete_national_focus = JAP_select_start
-				complete_national_focus = JAP_select_JAP
-			}
-			set_country_flag = chose_JAP
 			set_cosmetic_tag = chose_JAP
 			if = {
 				limit = {
@@ -278,5 +254,8 @@ focus_tree = {
 			}
 		}
 	}
+	shared_focus = shared_mil_start
+	shared_focus = shared_air_start
+	shared_focus = shared_ind_start
 #End of focuses 
 }

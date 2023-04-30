@@ -11,6 +11,10 @@
 		
 		
 	}
+	continuous_focus_position = {
+		x = 0
+		y = 1500
+	}
 	shared_focus = shared_mil_start
 	shared_focus = shared_air_start
 	shared_focus = shared_ind_start

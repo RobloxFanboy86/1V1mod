@@ -5,10 +5,15 @@
  EST_democratic:0 "East"
  EST_democratic_DEF:0 "the East"
  EST_neutrality:1 "East"
- EST_neutrality_DEF:1 " the East"
+ EST_neutrality_DEF:1 "the East"
  EST_communism:0 "East"
  EST_communism_DEF:0 "the East"
- EST_fascism_ADJ:0 "Eastern"
+ EST_ADJ:0 "Eastern"
+
+ EST_neutrality_party:0 "Non-Aligned" 
+ EST_democratic_party:0 "Democratic"
+ EST_communism_party:0 "Communism"
+ EST_fascism_party:0 "Fascism"
 
  WST_democratic_ADJ:0 "the West"
  WST_neutrality_ADJ:0 "the West"
@@ -21,5 +26,17 @@
  WST_neutrality_DEF:1 "the West"
  WST_communism:0 "West"
  WST_communism_DEF:0 "the West"
- WST_fascism_ADJ:0 "Western"
+ WST_ADJ:0 "Western"
+
+ chose_SOV:0 "Red Army"
+ chose_SOV_DEF:0 "the Red Army"
+ chose_ENG:0 "British Armed Forces"
+ chose_ENG_DEF:0 "the British Armed Forces"
+ chose_GER:0 "Wehrmacht" 
+ chose_GER_DEF:0 "the Wehrmacht" 
+ chose_USA:0 "United States Armed Forces"
+ chose_USA_DEF:0 "the United States Armed Forces"
+ chose_JAP:0 "Imperial Japanese Army"
+ chose_JAP_DEF:0 "the Imperial Japanese Army"
+
 
