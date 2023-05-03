@@ -8,7 +8,7 @@ shared_focus = {
 	icon = GFX_goal_continuous_non_factory_construct
 	cost = 0
 	x = 4
-	y = 0
+	y = 4
 	bypass = {
 		always = yes
 	}
@@ -201,8 +201,9 @@ shared_focus = {
 	id = labour_1
 	icon = GFX_goal_generic_construction2
 	cost = 2
-	x = 2
-	y = 2.5
+	relative_position_id = flexible_industry_focus
+	x = -2
+	y = 1
 	prerequisite = {
 		focus = aggressive_industry_focus
 		focus = flexible_industry_focus
@@ -781,7 +782,7 @@ shared_focus = {
 	icon = GFX_goal_generic_army_doctrines 
 	cost = 0
 	x = 20
-	y = 0
+	y = 4
 	bypass = {
 		always = yes
 	}
@@ -857,6 +858,11 @@ shared_focus = {
 		focus = special_forces_marine
 	}
 	completion_reward = { 
+		set_technology = {
+			tech_special_forces = 1
+			tech_mountaineers = 1
+			tech_mountaineers2 = 1
+		}
 		if = {
 			limit = {
 				TAG = EST
@@ -875,10 +881,7 @@ shared_focus = {
 			}
 			custom_effect_tooltip = spawn_mountaineers
 		}
-		set_technology = {
-			tech_special_forces = 1
-			tech_mountaineers2 = 1
-		}
+		
 	}
 }
 shared_focus = {
@@ -896,6 +899,11 @@ shared_focus = {
 		focus = special_forces_mountaineer
 	}
 	completion_reward = { 
+		set_technology = {
+			tech_special_forces = 1
+			marines = 1
+			marines2 = 1
+		}
 		if = {
 			limit = {
 				TAG = EST
@@ -914,10 +922,6 @@ shared_focus = {
 			}
 			custom_effect_tooltip = spawn_marines
 		}
-		set_technology = {
-			tech_special_forces = 1
-			marines2 = 1
-		}
 	}
 }
 shared_focus = {
@@ -935,6 +939,11 @@ shared_focus = {
 		focus = special_forces_mountaineer
 	}
 	completion_reward = { 
+		set_technology = {
+			tech_special_forces = 1
+			paratroopers = 1
+			paratroopers2 = 1
+		}
 		if = {
 			limit = {
 				TAG = EST
@@ -952,10 +961,6 @@ shared_focus = {
 				load_oob = WEST_PARATROOPERS
 			}
 			custom_effect_tooltip = spawn_paratroops
-		}
-		set_technology = {
-			tech_special_forces = 1
-			paratroopers2 = 1
 		}
 		add_equipment_to_stockpile = {
 			type = transport_plane_equipment_1
@@ -979,6 +984,7 @@ shared_focus = {
 	}
 	completion_reward = { 
 		set_technology = {
+			basic_light_tank_chassis = 1
 			improved_light_tank_chassis = 1
 		}
 		
@@ -1029,6 +1035,7 @@ shared_focus = {
 	}
 	completion_reward = { 
 		set_technology = {
+			basic_medium_tank_chassis = 1
 			improved_medium_tank_chassis = 1
 		}
 		
@@ -1074,6 +1081,7 @@ shared_focus = {
 	}
 	completion_reward = { 
 		set_technology = {
+			basic_heavy_tank_chassis = 1
 			improved_heavy_tank_chassis = 1
 		}
 		
@@ -1165,7 +1173,7 @@ shared_focus = {
 	icon = GFX_goal_generic_air_doctrine
 	cost = 0
 	x = 35
-	y = 0
+	y = 4
 	bypass = {
 		always = yes
 	}

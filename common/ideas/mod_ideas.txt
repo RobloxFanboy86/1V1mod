@@ -5,7 +5,7 @@ ideas = {
 			picture = generic_neutrality_drift_bonus
 			modifier = {
 				cat_mobile_warfare_cost_factor = -0.15
-				cat_superior_firepower_cost_factor = 0.5
+				cat_superior_firepower_cost_factor = 0.25
 				cat_mass_assault_cost_factor = -0.25
 			}
 		}

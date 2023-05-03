@@ -1,15 +1,19 @@
 ﻿focus_tree = {
-	id = generic_east_tree_east
+	id = mod_tree_generic
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
-			tag = EST
+			always = yes
 			
 		}
 		
 		
+	}
+	continuous_focus_position = {
+		x = 0
+		y = 1500
 	}
 	shared_focus = shared_mil_start
 	shared_focus = shared_air_start
