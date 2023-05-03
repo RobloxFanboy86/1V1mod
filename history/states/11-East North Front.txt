@@ -12,7 +12,7 @@ state={
 		owner = EST
 		add_core_of = EST
 		victory_points = {
-			491 100 
+			871 100 
 		}
 		buildings = {
 			infrastructure = 3
@@ -23,7 +23,7 @@ state={
 	}
 
 	provinces={
-		367 475 491 493 634 707 752 865 871 872 876 877 878 1742 3189 
+		367 464 475 491 493 634 707 752 790 865 871 872 876 877 878 1042 1065 1742 3189 3940 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -1,5 +1,6 @@
 ﻿l_english:
 ###COUNTRIES.
+<<<<<<< Updated upstream
  EST_fascism:0 "East"
  EST_fascism_DEF:0 "the East"
  EST_democratic:0 "East"
@@ -22,4 +23,45 @@
  WST_communism:0 "West"
  WST_communism_DEF:0 "the West"
  WST_fascism_ADJ:0 "Western"
+=======
+ EST_fascism:0 "Red"
+ EST_fascism_DEF:0 "Red"
+ EST_democratic:0 "Red"
+ EST_democratic_DEF:0 "Red"
+ EST_neutrality:1 "Red"
+ EST_neutrality_DEF:1 "Red"
+ EST_communism:0 "Red"
+ EST_communism_DEF:0 "Red"
+ EST_ADJ:0 "Red"
+
+ EST_neutrality_party:0 "Non-Aligned" 
+ EST_democratic_party:0 "Democratic"
+ EST_communism_party:0 "Communism"
+ EST_fascism_party:0 "Fascism"
+
+ WST_democratic_ADJ:0 "Blue"
+ WST_neutrality_ADJ:0 "Blue"
+ WST_communism_ADJ:0 "Blue"
+ WST_fascism:0 "Blue"
+ WST_fascism_DEF:0 "Blue"
+ WST_democratic:0 "Blue"
+ WST_democratic_DEF:0 "Blue"
+ WST_neutrality:1 "Blue"
+ WST_neutrality_DEF:1 "Blue"
+ WST_communism:0 "Blue"
+ WST_communism_DEF:0 "Blue"
+ WST_ADJ:0 "Blue"
+
+ chose_SOV:0 "Red Army"
+ chose_SOV_DEF:0 "the Red Army"
+ chose_ENG:0 "British Armed Forces"
+ chose_ENG_DEF:0 "the British Armed Forces"
+ chose_GER:0 "Wehrmacht" 
+ chose_GER_DEF:0 "the Wehrmacht" 
+ chose_USA:0 "United States Armed Forces"
+ chose_USA_DEF:0 "the United States Armed Forces"
+ chose_JAP:0 "Imperial Japanese Army"
+ chose_JAP_DEF:0 "the Imperial Japanese Army"
+
+>>>>>>> Stashed changes
 

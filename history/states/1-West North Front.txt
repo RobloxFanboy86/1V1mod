@@ -12,7 +12,7 @@ state={
 		owner = WST
 		add_core_of = WST
 		victory_points = {
-			617 100 
+			753 100 
 		}
 		buildings = {
 			infrastructure = 3
@@ -23,7 +23,7 @@ state={
 	}
 
 	provinces={
-		44 111 316 409 471 514 617 753 769 776 863 864 870 881 2780 
+		44 111 180 316 394 409 471 514 525 617 753 769 776 863 864 870 881 898 2780 3941 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

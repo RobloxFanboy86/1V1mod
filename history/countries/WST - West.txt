@@ -91,7 +91,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Wesley W. West"
+	name = "Bluegene B. Blutarch"
 	desc = ""
 	picture = "leader_unknown.dds"
 	expire = "1965.1.1"

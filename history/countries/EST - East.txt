@@ -92,7 +92,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Eamonn E. Easterly"
+	name = "Reddie R. Redmond"
 	desc = ""
 	picture = "leader_unknown.dds"
 	expire = "1965.1.1"
