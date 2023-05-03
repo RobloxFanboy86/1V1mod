@@ -129,7 +129,22 @@
  scout_tt:0 "§Y30§! units of §YScout Plane§! is added to the national stockpile."
  fighter2_tt:0 "§Y100§! units of §YImproved Small Airframe§! is added to the national stockpile."
  heavyfighter_tt:0 "§Y200§! units of §YHeavy Fighters Variant§! is added to the national stockpile."
+
+
  #FOCUSES
+ select_start:0 "Deciding Our Path"
+ select_USA:0 "Trust in the US Army"
+ select_SOV:0 "Zhukov's Leadership"
+ select_ENG:0 "Montgomery's Plan"
+ select_GER:0 "Embrace the Wehrmacht"
+ select_JAP:0 "The IJA's Spirit"
+
+ chose_USA_tree:0 "United States Armed Forces National Focus"
+ chose_SOV_tree:0 "Red Army National Focus"
+ chose_ENG_tree:0 "British Armed Forces National Focus"
+ chose_GER_tree:0 "Wehrmacht National Focus"
+ chose_JAP_tree:0 "Imperial Japanese Army National Focus"
+
  shared_ind_start:0 "Industry"
  aggressive_industry_focus:0 "Aggressive Industry"
  aggro_industry_1:0 "Aggressive Industry I"
